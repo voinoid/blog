@@ -1,20 +1,20 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'uncommon sense',
+  author: 'Jonathan Nye',
+  headerTitle: 'uncommon sense',
+  description: 'My simplified view of the world',
   language: 'en-us',
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  siteUrl: 'https://denyed.xyz',
+  siteRepo: 'https://github.com/nyejon/blog',
+  siteLogo: '/static/images/logo.jpeg',
+  image: '/static/images/logo.jpeg',
+  socialBanner: '/static/images/logo.jpeg',
+  email: 'hello@denyed.xyz',
+  github: 'https://github.com/nyejon',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
+  twitter: 'https://twitter.com/nyejon',
+  linkedin: 'https://www.linkedin.com/in/nyejonathan/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
@@ -25,7 +25,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // Select a provider and use the environment variables associated to it

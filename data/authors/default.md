@@ -1,16 +1,51 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Jonathan Nye
+avatar: /static/images/profile.jpeg
+occupation: data scientist/engineer
+# company:  power systems engineer
+email: hello@denyed.xyz
+twitter: https://twitter.com/nyejon
+linkedin: https://www.linkedin.com/in/nyejonathan/
+github: https://github.com/nyejon
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I am currently working as the lead data scientist for a property company in Berlin.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I hold a masters in electrical engineering, and wondered my way into data science through
+various online courses. As an engineer at heart, my interests lie in the application of
+data and machine learning to solve real problems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+This blog is new and I hope to write some articles about some of my interests over the coming months.
+
+# interests
+
+The world is a complex place. I break things down into useful, actionable insights.
+
+## climate change
+
+### renewable energy
+
+What are the most effective approaches to integrate renewable energy into the power grid.
+
+### regenerative agriculture
+
+I am a firm believer that nature knows best, but can use some help from us along the way.
+
+How can we use technology in combination with regenerative agriculture to feed the planet and help solve climate change?
+
+## health
+
+Without health, one has nothing. A healthy person has many problems, an unhealthy person has just one.
+
+### lifespan
+
+Discovering simple rules that one can take to maximise healthspan and reduce healthcare costs.
+
+### sports
+
+Exercise is a necessity to life and mental well being.
+I have cycled many kilometers, run many miles and lifted many weights.
+
+### mental wellbeing
+
+What things can one do to stay mentally sane, reduce anxiety and stress?
