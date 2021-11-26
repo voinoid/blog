@@ -1,6 +1,22 @@
-import NextImage from 'next/image'
+import Image from 'next/image'
 
-// eslint-disable-next-line jsx-a11y/alt-text
-const Image = ({ ...rest }) => <NextImage {...rest} />
+const normalizeSrc = (src) => {
+  return src[0] === '/' ? src.slice(1) : src
+}
 
-export default Image
+const cloudflareLoader = ({ src, width, quality }) => {
+  const params = [`width=${width}`]
+  if (quality) {
+    params.push(`quality=${quality}`)
+  }
+  const paramsString = params.join(',')
+  return `/cdn-cgi/image/${paramsString}/${normalizeSrc(src)}`
+}
+
+export default function Img(props) {
+  if (process.env.NODE_ENV === 'development') {
+    return <Image unoptimized={true} {...props} />
+  } else {
+    return <Image {...props} loader={cloudflareLoader} />
+  }
+}
