@@ -8,7 +8,8 @@ const cloudflareImageLoader = ({ src, width, quality }) => {
   if (!quality) {
     quality = 75
   }
-  return `https://images.denyed.workers.dev?width=${width}&quality=${quality}&image=https://denyed.xyz${src}`
+  src = normalizeSrc(src)
+  return `https://images.denyed.workers.dev?width=${width}&quality=${quality}&image=https://denyed.xyz/${src}`
 }
 
 export default function Img(props) {
