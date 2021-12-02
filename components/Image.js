@@ -4,19 +4,17 @@ const normalizeSrc = (src) => {
   return src[0] === '/' ? src.slice(1) : src
 }
 
-const cloudflareLoader = ({ src, width, quality }) => {
-  const params = [`width=${width}`]
-  if (quality) {
-    params.push(`quality=${quality}`)
+const cloudflareImageLoader = ({ src, width, quality }) => {
+  if (!quality) {
+    quality = 75
   }
-  const paramsString = params.join(',')
-  return `/cdn-cgi/image/${paramsString}/${normalizeSrc(src)}`
+  return `https://images.denyed.workers.dev?width=${width}&quality=${quality}&image=https://[yourdomain.com]${src}`
 }
 
 export default function Img(props) {
   if (process.env.NODE_ENV === 'development') {
     return <Image unoptimized={true} {...props} />
   } else {
-    return <Image {...props} loader={cloudflareLoader} />
+    return <Image {...props} loader={cloudflareImageLoader} />
   }
 }
