@@ -17,6 +17,7 @@ If you notice any errors or have any comments please open a discussion or ticket
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
 - Server-side syntax highlighting with line numbers and line highlighting via [rehype-prism-plus](https://github.com/timlrx/rehype-prism-plus)
 - Math display supported via [KaTeX](https://katex.org/)
+- Citation and biliography support via [rehype-citation](https://github.com/timlrx/rehype-citation)
 - Automatic image optimization via [next/image](https://nextjs.org/docs/basic-features/image-optimization)
 - Flexible data retrieval with [mdx-bundler](https://github.com/kentcdodds/mdx-bundler)
 - Support for tags - each unique tag will be its own page
