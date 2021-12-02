@@ -42,3 +42,5 @@ fields:
     min: 
     max: 
   label: layout
+pages:
+- data/blog/shantaram-book-review.mdx
