@@ -41,6 +41,9 @@
     "tailwindcss": "^2.2.2",
     "unist-util-visit": "^4.0.0"
   },
+  "optionalDependencies": {
+    "fsevents": "2.3.2"
+  },
   "devDependencies": {
     "@next/bundle-analyzer": "12.0.3",
     "@svgr/webpack": "^5.5.0",
