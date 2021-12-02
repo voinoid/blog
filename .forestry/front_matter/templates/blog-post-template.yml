@@ -11,9 +11,33 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: lastmod
+  type: datetime
+  label: last modified
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: boolean
   name: draft
   label: draft
 - type: text
   name: summary
   label: summary
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+- name: authors
+  type: tag_list
+  default: []
+  label: authors
+- name: layout
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: layout
