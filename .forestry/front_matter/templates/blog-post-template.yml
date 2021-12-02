@@ -9,6 +9,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    export_format: YYYY-MM-DD
 - type: list
   name: tags
   label: tags
@@ -21,6 +23,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+    export_format: YYYY-MM-DD
 - type: boolean
   name: draft
   label: draft
