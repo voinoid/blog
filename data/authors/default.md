@@ -1,13 +1,13 @@
 ---
 name: Jonathan Nye
-avatar: "/static/images/profile.jpeg"
+avatar: '/static/images/profile.jpeg'
 occupation: data scientist / engineer
 email: hello@denyed.xyz
 twitter: https://twitter.com/nyejon
 linkedin: https://www.linkedin.com/in/nyejonathan/
 github: https://github.com/nyejon
-
 ---
+
 Currently working as the lead data scientist for a property company in Berlin.
 
 Hold a master's in electrical engineering and wondered my way into data science through various online courses. As an engineer at heart, my interests lie in the application of data and machine learning to solve real problems.

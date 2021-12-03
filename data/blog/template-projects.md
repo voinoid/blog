@@ -97,7 +97,6 @@ A template repository should include:
 - deployment files
 - CI/CD templates and scripts
 - standard secret names
--
 
 change files for each new project
 To use this template in each project, there are files which you will need to change so that
@@ -105,37 +104,3 @@ it works with your project. See
 
 In general this include things like project naming, URLS, naming in k8s files and
 environment variables.
-
-Some examples include:
-
-in certain situations, you will need to change the base-mal to newname-projectid
-
-docker registry names
-
-secret names
-
-These files include:
-
-deployment/
-
-In these files it is necessary to change the namespace, and naming of the ingresses, service, deployment configmap and secrets etc.
-
-Follow this naming convention
-
-.envs/
-
-secret-names.txt
-
-various env files
-
-az-devops.yaml
-
-Change the variables at the top of the file
-
-az-devops-k8s.yaml
-
-Add the secrets for your project in AzureKeyVault@1 and then the names in displayName: Create secrets task.
-
-The base ones can be used as an example
-
-in general, anything that contains base should be changed to project-name.
