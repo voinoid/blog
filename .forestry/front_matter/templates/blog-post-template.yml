@@ -6,24 +6,19 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
+- name: date
+  type: text
   config:
-    export_format: '"YYYY-MM-DD"'
+    required: true
+  label: date
 - type: list
   name: tags
   label: tags
 - name: lastmod
-  type: datetime
-  label: last modified
-  description: ''
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-    export_format: '"YYYY-MM-DD"'
+  label: lastmod
 - type: boolean
   name: draft
   label: draft
