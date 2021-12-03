@@ -1,0 +1,47 @@
+---
+label: Blog post template
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: title
+- name: date
+  type: text
+  config:
+    required: true
+  label: date
+- type: list
+  name: tags
+  label: tags
+- name: lastmod
+  type: text
+  config:
+    required: false
+  label: lastmod
+- type: boolean
+  name: draft
+  label: draft
+- type: text
+  name: summary
+  label: summary
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+- name: authors
+  type: tag_list
+  default: []
+  label: authors
+- name: layout
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: layout
+pages:
+- data/blog/health-and-fitness.mdx
+- data/blog/shantaram-book-review.mdx
