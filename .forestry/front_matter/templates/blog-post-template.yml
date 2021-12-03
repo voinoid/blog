@@ -48,4 +48,5 @@ fields:
       type: simple
   label: layout
 pages:
+- data/blog/health-and-fitness.mdx
 - data/blog/shantaram-book-review.mdx
