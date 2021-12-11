@@ -5,7 +5,7 @@ tags:
 - development
 - teams
 - growth
-draft: true
+draft: false
 summary: Templates are one of my favourite ways to speed up your workflow. Whether
   you are working alone, or part of a larger team, templates have many advantages.
 authors:
@@ -30,15 +30,27 @@ Templates allow any improvements to be made in one place and then merged into al
 
 # template repositories
 
+A template repository should include anything that fits into the standard project workflow that you use. You want to figure something out once, and document it's use by implementation in your template repository.
+
+Things that you should include are:
+
+* Readme
+* standard env files for your setup
+* development and production environment definitions
+* deployment files
+* CI/CD templates and scripts
+* standard secret name
+* formatting rules, pre-commit workflows
+
+In addition, the template should define everything you would use repetitively.
+
+# how to use templates
+
 You have two choices when deciding to use templates.
 
 The first, is creating a new repository from a template, without including the git history. This is effectively a snapshot at the point in time of your template repository. Any changes you make to the template repository will need to be manually merged into all the projects that use it.
 
 The second, and the method which I prefer, is to add a template repository as a remote repository on an empty git-repo. The advantage is that you can pull any changes from your template repository into your projects that derive from it.
-
-# how to use templates
-
-Before we get into the details, let's look at how to use templates.
 
 ## step one: create a repository
 
@@ -75,13 +87,11 @@ Then we want to ensure you cannot push to this remote:
 
 After executing the above commands, you should see the following output:
 
-```bash
-$ git remote -v
-origin git@github.com:<organisation>/<project-name>-ml-api.git (fetch)
-origin git@github.com:<organisation>/<project-name>-ml-api.git (push)
-upstream        git@github.com:<organisation>/template-ml-api.git (fetch)
-upstream        no_push (push)
-```
+    $ git remote -v
+    origin git@github.com:<organisation>/<project-name>-ml-api.git (fetch)
+    origin git@github.com:<organisation>/<project-name>-ml-api.git (push)
+    upstream        git@github.com:<organisation>/template-ml-api.git (fetch)
+    upstream        no_push (push)
 
 ## step three: start your project with the template
 
@@ -94,18 +104,8 @@ Congratulations, you have now created a new repository based on a template.
 
 It should be possible to run `git pull upstream master` to merge any changes in the template into your project in the future.
 
-# what to include in your template
+You will need to update any files that need to be customised to your newly created project. This includes things like project naming, URLS, naming in Kubernetes files and environment variables etc.
 
-A template repository should include:
+# conclusion
 
-* standard env files for your particular setup
-* deployment files
-* CI/CD templates and scripts
-* standard secret names
-
-change files for each new project
-To use this template in each project, there are files which you will need to change so that
-it works with your project. See
-
-In general this include things like project naming, URLS, naming in k8s files and
-environment variables.
+Template repositories are a good starting point for new projects. They help to speed up your development workflow and enable much faster development rates and efficiencies.  You should also have a good understanding about what to put into a template repository. Happy templating!
