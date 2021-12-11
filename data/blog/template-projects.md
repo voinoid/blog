@@ -57,9 +57,9 @@ The second, and the method which I prefer, is to add a template repository as a 
 I like to standardise my project names when they are based upon a template.
 For example, a project that is based on a template for a machine learning API could be named something like:
 
-`repository-name = <project_name>-ml-api`
+`repository-name = project-name-ml-api`
 
-where **project_name** is the name of your project.
+where **project-name** is the name of your project.
 
 After deciding on a name, create the repository.
 Clone this new repository to your local machine.
@@ -73,13 +73,13 @@ You can check this by running the following command:
 
 ```bash
 $ git remote -v
-origin git@github.com:<organisation>/<project-name>-ml-api.git (fetch)
-origin git@github.com:<organisation>/<project-name>-ml-api.git (push)
+origin git@github.com:organisation/project-name-ml-api.git (fetch)
+origin git@github.com:organisation/project-name-ml-api.git (push)
 ```
 
 We will now add the template as a remote:
 
-`git remote add upstream git@github.com:<organisation>/template-ml-api.git`
+`git remote add upstream git@github.com:organisation/template-ml-api.git`
 
 Then we want to ensure you cannot push to this remote:
 
@@ -88,9 +88,9 @@ Then we want to ensure you cannot push to this remote:
 After executing the above commands, you should see the following output:
 
     $ git remote -v
-    origin git@github.com:<organisation>/<project-name>-ml-api.git (fetch)
-    origin git@github.com:<organisation>/<project-name>-ml-api.git (push)
-    upstream        git@github.com:<organisation>/template-ml-api.git (fetch)
+    origin git@github.com:organisation>/project-name-ml-api.git (fetch)
+    origin git@github.com:organisation>/project-name-ml-api.git (push)
+    upstream        git@github.com:organisation/template-ml-api.git (fetch)
     upstream        no_push (push)
 
 ## step three: start your project with the template
