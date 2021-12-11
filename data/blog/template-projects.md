@@ -2,29 +2,30 @@
 title: How to use template projects and repositories
 date: '2021-12-11'
 tags:
-- development
-- teams
-- growth
+  - development
+  - teams
+  - growth
+  - templates
 draft: false
 summary: Templates are one of my favourite ways to speed up your workflow. Whether
-  you are working alone, or part of a larger team, templates have many advantages.
+  you are working alone, or as part of a larger team, templates have many advantages.
 authors:
-- default
+  - default
 layout:
-- PostLayout
+  - PostLayout
 lastmod: '2021-12-11'
 images: []
-
 ---
+
 # introduction
 
 Templates are a quick way to bootstrap a repository for a new project and then keep it up to date with your best practices.
 
 A good template allows you to:
 
-* update all sub projects easily
-* get to production quickly
-* have a consistent development environment
+- update all sub projects easily
+- get to production quickly
+- have a consistent development environment
 
 Templates allow any improvements to be made in one place and then merged into all the projects that use the template as a base. They are vital when working in teams. Nobody likes repeating work many times over when you are working on multiple different projects at the same time.
 
@@ -34,15 +35,15 @@ A template repository should include anything that fits into the standard projec
 
 Things that you should include are:
 
-* Readme
-* standard env files for your setup
-* development and production environment definitions
-* deployment files
-* CI/CD templates and scripts
-* standard secret name
-* formatting rules, pre-commit workflows
+- Readme
+- standard env files for your setup
+- development and production environment definitions
+- deployment files
+- CI/CD templates and scripts
+- standard secret name
+- formatting rules, pre-commit workflows
 
-In addition, the template should define everything you would use repetitively.
+This is not an exhaustive list. Include everything you would use repetitively.
 
 # how to use templates
 
@@ -87,11 +88,13 @@ Then we want to ensure you cannot push to this remote:
 
 After executing the above commands, you should see the following output:
 
-    $ git remote -v
-    origin git@github.com:organisation>/project-name-ml-api.git (fetch)
-    origin git@github.com:organisation>/project-name-ml-api.git (push)
-    upstream        git@github.com:organisation/template-ml-api.git (fetch)
-    upstream        no_push (push)
+```bash
+$ git remote -v
+origin git@github.com:organisation>/project-name-ml-api.git (fetch)
+origin git@github.com:organisation>/project-name-ml-api.git (push)
+upstream        git@github.com:organisation/template-ml-api.git (fetch)
+upstream        no_push (push)
+```
 
 ## step three: start your project with the template
 
@@ -108,4 +111,4 @@ You will need to update any files that need to be customised to your newly creat
 
 # conclusion
 
-Template repositories are a good starting point for new projects. They help to speed up your development workflow and enable much faster development rates and efficiencies.  You should also have a good understanding about what to put into a template repository. Happy templating!
+Template repositories are a good starting point for new projects. They help to speed up your development workflow and enable much faster development rates and efficiencies. You should also have a good understanding about what to put into a template repository. Happy templating!
