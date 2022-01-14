@@ -9,7 +9,7 @@ const siteMetadata = {
   siteLogo: '/static/images/uncommon-sense.png',
   image: '/static/images/uncommon-sense.png',
   socialBanner: '/static/images/uncommon-sense.png',
-  email: 'hello@denyed.xyz',
+  email: 'contact@denyed.xyz',
   github: 'https://github.com/nyejon',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
