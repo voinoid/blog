@@ -31,16 +31,20 @@ fields:
   label: images
 - name: authors
   type: tag_list
-  default: []
+  default:
+  - default
   label: authors
 - name: layout
   type: list
   config:
-    use_select: false
+    use_select: true
     min: 
     max: 
     source:
       type: simple
+    options:
+    - PostLayout
+    - PostSimple
   label: layout
 pages:
 - data/blog/health-and-fitness.mdx
