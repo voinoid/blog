@@ -19,7 +19,7 @@ Leaders come in many forms and have different beliefs, values, and cultures. Thi
 
 ## nature versus nurture
 
-Are leaders made or born? 
+Are leaders made or born?
 
 There are two dominant theories of leadership: entity theory, also known as trait theory and incremental theory
 
@@ -58,3 +58,7 @@ In my view, one needs to combine these leadership styles. People should be suffi
 ## organisational intelligence
 
 ## cultural intelligence
+
+# the multiple intelligences test
+
+![](/static/multiple-intelligences-test.png)
