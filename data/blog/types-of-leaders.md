@@ -133,7 +133,7 @@ The next intelligence is the bodily-kinaesthetic. This is a strength for me as I
 
 The third intelligence is intra-personal. This involves self-reflection and an ability to learn from one's mistakes. I often review my actions and thoughts after events and figure out how different situations could be handled better in the future.
 
-Getting to the weaknesses, by far my weakest area is linguistic intelligence. Writing, speaking, and learning languages doesn't come naturally to me. This requires work, and currently I am learning German. Based upon these results, I should invest more time writing, and working with language as effective communication is essential when working with others. One of the way's I intend to work on this intelligence is by writing for my blog. Overtime, writing should become easier and more fun.
+Getting to the weaknesses, by far my weakest area is linguistic intelligence. Writing, speaking, and learning languages doesn't come naturally to me. This requires work, and currently I am learning German. Based upon these results, I should invest more time writing, and working with language as effective communication is essential when working with others. One of the ways I intend to work on this intelligence is by writing for my blog. Over time, writing should become easier and more fun.
 
 The next intelligence that I want to work on is my naturalistic intelligence. I enjoy being in nature, and spending time outdoors. I however don't learn much about various plants and animals and often just ignore any information that comes my way. To improve this, I should pay more attention to the details and try to learn and remember information to do with nature.
 
