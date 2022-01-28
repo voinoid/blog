@@ -53,7 +53,7 @@ Are you intrinsically or extrinsically motivated? What about your colleagues?
 
 Often people believe that they themselves are intrinsically motivated and believe that others are extrinsically motivated. This obviously makes no sense, as why would most people believe that others are motivated by money, while themselves having some other internal motivation for what they do.
 
-It is important to nurture and develop the intrinsic motivation in your colleagues and subordinates. You will get far better work from them, and have a 
+It is important to nurture and develop the intrinsic motivation in your colleagues and subordinates. You will get far better work from them, and have a
 
 ## happiness
 
@@ -127,15 +127,15 @@ Here are my results.
 
 The results show that my top three intelligences are logical-mathematical, bodily-kinaesthetic, and intra-personal. My weaknesses are linguistic and naturalistic.
 
-It comes as no surprise that my top intelligence is logical-mathematical because of my role as a data scientist and having previously studied engineering. In these roles it is critical to be able to formulate logical thoughts and understand complicated problems. 
+It comes as no surprise that my top intelligence is logical-mathematical because of my role as a data scientist and having previously studied engineering. In these roles it is critical to be able to formulate logical thoughts and understand complicated problems.
 
 The next intelligence is the bodily-kinaesthetic. This is a strength for me as I have always participated in a variety of sports and been active. Learning new skills that require co-ordination and body-awareness come relatively easily.
 
 The third intelligence is intra-personal. This involves self-reflection and an ability to learn from one's mistakes. I often review my actions and thoughts after events and figure out how different situations could be handled better in the future.
 
-Getting to the weaknesses, by far my weakest area is linguistic intelligence. Writing, speaking, and learning languages just don't come naturally for me. This requires work, and currently I am learning German. Based upon these results, I should invest more time writing, and working with language as effective communication is essential when working with others. One of the way's I intend to work on this intelligence is by writing for my blog. Overtime, writing should become easier and more fun.
+Getting to the weaknesses, by far my weakest area is linguistic intelligence. Writing, speaking, and learning languages doesn't come naturally to me. This requires work, and currently I am learning German. Based upon these results, I should invest more time writing, and working with language as effective communication is essential when working with others. One of the way's I intend to work on this intelligence is by writing for my blog. Overtime, writing should become easier and more fun.
 
-The next intelligence that I want to work on is my naturalistic intelligence. I enjoy being in nature, and spending time outdoors. I however don't learn much about various plants and animals and often just ignore any information that comes my way. To improve this, I should pay more attention to the details and try to learn and remember information to do with nature. 
+The next intelligence that I want to work on is my naturalistic intelligence. I enjoy being in nature, and spending time outdoors. I however don't learn much about various plants and animals and often just ignore any information that comes my way. To improve this, I should pay more attention to the details and try to learn and remember information to do with nature.
 
 Working on these two intelligences will help my professional career, by improving communication and information sharing. They will help me become more aware of my surroundings and notice intricate details around me.
 
