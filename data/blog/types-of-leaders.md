@@ -2,11 +2,11 @@
 authors:
 - default
 title: Types of leaders
-date: 2022-01-26
+date: 2022-01-25T23:00:00Z
 tags:
 - online courses
 - leadership
-lastmod: 2022-01-26
+lastmod: ! '''2022-02-01'''
 draft: false
 summary: Leaders come in different forms and have many developed traits. This post
   discusses some of the different leadership styles and where I fit in.
