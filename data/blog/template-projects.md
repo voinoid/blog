@@ -1,6 +1,6 @@
 ---
 title: How to use template projects and repositories
-date: 2022-12-11T00:00:00Z
+date: 2021-12-11T00:00:00Z
 tags:
   - development
   - teams
