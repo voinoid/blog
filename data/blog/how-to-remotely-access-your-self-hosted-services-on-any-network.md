@@ -1,24 +1,24 @@
 ---
 authors:
-- default
+  - default
 title: How to remotely access your self-hosted services on any network
-date: 03-02-2022
+date: '2022-02-03'
 tags:
-- how to
-- IT
-lastmod: 03-02-2022
+  - how to
+  - IT
+lastmod: '2022-02-03'
 draft: false
 summary: Cloudflare Access provides a reliable way to create a tunnel between your
   self-hosted service and Cloudflare. This makes it much easier to set up a service
   with a URL, without worrying about port forwarding or dynamic DNS.
 images: []
 layout:
-- PostLayout
-
+  - PostLayout
 ---
+
 I recently wanted to access a service on my local computer remotely. The problem was that generally I use a VPN, which means there is no straightforward way to set up port forwarding (At least with my provider).
 
-I had successfully set up port forwarding, dynamic DNS and had a domain for the service without the VPN but couldn't figure out how to get it to work with the VPN. I had accepted that sometimes I wouldn't be able to access the service remotely. 
+I had successfully set up port forwarding, dynamic DNS and had a domain for the service without the VPN but couldn't figure out how to get it to work with the VPN. I had accepted that sometimes I wouldn't be able to access the service remotely.
 
 I use Cloudflare as my DNS, and the pages service to host this site. After browsing through the numerous services, they offer, I stumbled across _Cloudflare Tunnel._
 
@@ -28,6 +28,6 @@ I use Cloudflare as my DNS, and the pages service to host this site. After brows
 
 Bingo! Exactly what was needed.
 
-I followed the guide to install Cloudflare Tunnel as a service: [https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service "https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service") and within 30 minutes the service was accessible, with and without the VPN.
+I followed the guide to install Cloudflare Tunnel as a service: [https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service 'https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service') and within 30 minutes the service was accessible, with and without the VPN.
 
 Now I have my service accessible at a fixed URL, reliably and without having to mess around with my router and Dynamic DNS.
