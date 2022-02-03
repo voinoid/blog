@@ -13,6 +13,7 @@ If you notice any errors or have any comments please open a discussion or ticket
 - Lightweight, 39kB first load JS, uses Preact in production build
 - Mobile-friendly view
 - Light and dark theme
+- Self-hosted font with [Fontsource](https://fontsource.org/)
 - Supports [plausible](https://plausible.io/), [simple analytics](https://simpleanalytics.com/) and google analytics
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
 - Server-side syntax highlighting with line numbers and line highlighting via [rehype-prism-plus](https://github.com/timlrx/rehype-prism-plus)
