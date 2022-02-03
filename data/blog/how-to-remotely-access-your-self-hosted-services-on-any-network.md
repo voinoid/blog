@@ -1,21 +1,21 @@
 ---
 authors:
-  - default
+- default
 title: How to remotely access your self-hosted services on any network
-date: '2022-02-03'
+date: 2022-02-02T23:00:00Z
 tags:
-  - how to
-  - IT
-lastmod: '2022-02-03'
+- how to
+- IT
+lastmod: 2022-02-02T23:00:00Z
 draft: false
 summary: Cloudflare Access provides a reliable way to create a tunnel between your
   self-hosted service and Cloudflare. This makes it much easier to set up a service
   with a URL, without worrying about port forwarding or dynamic DNS.
 images: []
 layout:
-  - PostLayout
----
+- PostLayout
 
+---
 I recently wanted to access a service on my local computer remotely. The problem was that generally I use a VPN, which means there is no straightforward way to set up port forwarding (At least with my provider).
 
 I had successfully set up port forwarding, dynamic DNS and had a domain for the service without the VPN but couldn't figure out how to get it to work with the VPN. I had accepted that sometimes I wouldn't be able to access the service remotely.
