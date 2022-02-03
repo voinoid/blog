@@ -6,25 +6,38 @@ fields:
 - type: text
   name: title
   label: title
-- name: date
-  type: text
+- name: summary
+  type: textarea
+  default: ''
   config:
-    required: true
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary
+- name: date
+  type: datetime
   label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+    export_format: "'YYYY-MM-DD'"
+- name: lastmod
+  type: datetime
+  label: lastmod
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+    export_format: "'YYYY-MM-DD'"
 - type: list
   name: tags
   label: tags
-- name: lastmod
-  type: text
-  config:
-    required: false
-  label: lastmod
-- type: boolean
-  name: draft
-  label: draft
-- type: text
-  name: summary
-  label: summary
 - name: images
   type: image_gallery
   config: {}
@@ -46,6 +59,9 @@ fields:
     - PostLayout
     - PostSimple
   label: layout
+- type: boolean
+  name: draft
+  label: draft
 pages:
 - data/blog/health-and-fitness.mdx
 - data/blog/how-to-remotely-access-your-self-hosted-services-on-any-network.md
