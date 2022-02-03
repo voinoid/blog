@@ -48,6 +48,7 @@ fields:
   label: layout
 pages:
 - data/blog/health-and-fitness.mdx
+- data/blog/how-to-remotely-access-your-self-hosted-services-on-any-network.md
 - data/blog/shantaram-book-review.mdx
 - data/blog/template-projects.md
 - data/blog/types-of-leaders.md
