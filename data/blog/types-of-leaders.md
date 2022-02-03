@@ -1,21 +1,20 @@
 ---
 authors:
-- default
+  - default
 title: Types of leaders
-date: 2022-01-25T23:00:00Z
+date: 2022-01-26T00:00:00Z
 tags:
-- online courses
-- leadership
-lastmod: ! '''2022-02-01'''
+  - online courses
+  - leadership
 draft: false
 summary: Leaders come in different forms and have many developed traits. This post
   discusses some of the different leadership styles and where I fit in.
 images: []
 layout:
-- PostLayout
-
+  - PostLayout
 ---
-Leaders come in many forms and have different beliefs, values, and cultures. This post breaks down some of the high-level differences among leaders and highlights what one should be aware of in a leadership role. It is based on the Coursera course: [https://www.coursera.org/learn/leadership-collaboration](https://www.coursera.org/learn/leadership-collaboration "https://www.coursera.org/learn/leadership-collaboration")
+
+Leaders come in many forms and have different beliefs, values, and cultures. This post breaks down some of the high-level differences among leaders and highlights what one should be aware of in a leadership role. It is based on the Coursera course: [https://www.coursera.org/learn/leadership-collaboration](https://www.coursera.org/learn/leadership-collaboration 'https://www.coursera.org/learn/leadership-collaboration')
 
 # leadership development
 
@@ -119,7 +118,7 @@ Howard Gardner’s theory of multiple intelligences challenges the traditional v
 
 Your leadership style is influenced by your own multiple intelligences. Gaining self-awareness of your own multiple intelligences can help you motivate and influence others more effectively.
 
-You can do the [Multiple Intelligence Survey](https://www.idrlabs.com/multiple-intelligences/test.php "Multiple Intelligences Test") yourself and read more about the [The Components of Multiple Intelligences](https://www.multipleintelligencesoasis.org/the-components-of-mi).
+You can do the [Multiple Intelligence Survey](https://www.idrlabs.com/multiple-intelligences/test.php 'Multiple Intelligences Test') yourself and read more about the [The Components of Multiple Intelligences](https://www.multipleintelligencesoasis.org/the-components-of-mi).
 
 Here are my results.
 

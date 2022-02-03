@@ -1,6 +1,6 @@
 ---
 title: How to use template projects and repositories
-date: '2021-12-11'
+date: 2022-12-11T00:00:00Z
 tags:
   - development
   - teams
@@ -13,7 +13,6 @@ authors:
   - default
 layout:
   - PostLayout
-lastmod: '2021-12-11'
 images: []
 ---
 
