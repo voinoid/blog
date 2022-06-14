@@ -122,7 +122,7 @@ You can do the [Multiple Intelligence Survey](https://www.idrlabs.com/multiple-i
 
 Here are my results.
 
-![](/static/multiple-intelligences.png)
+![](/static/images/multiple-intelligences.png)
 
 The results show that my top three intelligences are logical-mathematical, bodily-kinaesthetic, and intra-personal. My weaknesses are linguistic and naturalistic.
 

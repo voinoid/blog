@@ -1,6 +1,6 @@
 ---
 name: Jonathan Nye
-avatar: '/static/images/profile.jpeg'
+avatar: '/static/profile.jpeg'
 occupation: data scientist / engineer
 email: contact@denyed.xyz
 twitter: https://twitter.com/nyejon

@@ -9,12 +9,12 @@ summary: A review of the book Shantaram by Gregory David Roberts.
 authors:
   - default
 images:
-  - '/static/shantaram-book.jpg'
+  - '/static/images/shantaram-book.jpg'
 layout:
   - PostLayout
 ---
 
-![Shantaram book cover](/static/shantaram-book.jpg 'Shantaram book cover')
+![Shantaram book cover](/static/images/shantaram-book.jpg 'Shantaram book cover')
 
 Recently on a holiday in Turkey, I settled down to read the book _Shantaram_ by Gregory David Roberts.
 
