@@ -7,7 +7,7 @@ const siteMetadata = {
   siteUrl: 'https://denyed.xyz',
   siteRepo: 'https://github.com/nyejon/blog',
   siteLogo: '/static/uncommon-sense.png',
-  image: '/static/images/uncommon-sense.png',
+  image: '/static/uncommon-sense.png',
   socialBanner: '/static/uncommon-sense.png',
   email: 'contact@denyed.xyz',
   github: 'https://github.com/nyejon',
