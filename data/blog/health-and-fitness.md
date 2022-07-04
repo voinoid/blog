@@ -12,6 +12,7 @@ authors:
 layout:
   - PostLayout
 images: []
+blog: true
 ---
 
 This post is a summary about what works for me, what I have tried and what I have learned regarding health and fitness.
