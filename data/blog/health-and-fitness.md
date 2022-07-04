@@ -6,7 +6,7 @@ tags:
   - fitness
   - barefoot shoes
 draft: false
-summary: 'My 80/20 approach to balancing health and fitness with other life demands. '
+summary: "My 80/20 approach to balancing health and fitness with the rest of life's demands."
 authors:
   - default
 layout:
@@ -17,11 +17,11 @@ blog: true
 
 This post is a summary about what works for me, what I have tried and what I have learned regarding health and fitness.
 
-I intend to update this as I learn more and use it to increase my accountability. As the old saying goes, ”We _know that half of what we know about health is wrong, we just don't know which half."_
+I intend to update this as I learn more and use it to increase my accountability. As the old saying goes, *“We know that half of what we know about health is wrong, we just don't know which half."*
 
 While I am not an athlete or health professional, I have absorbed significant amounts of health-related books and podcasts. The below points have stood out.
 
-# eating
+# Eating
 
 I have tried keto, paleo, and intermittent fasting.
 
@@ -34,7 +34,7 @@ I try to orient my diet to be fat heavy while limiting the amount of carbs.
 This usually means I skip breakfast.
 Instead, I have either a bulletproof coffee, or a coffee with a significant amount of cream.
 
-I love eating veggies soaked in fat such as butter or olive oil. Avoid oils like sunflower, canola, or soybean at all costs. Don't buy them and avoid products that contain them. Recently I have noticed many products bragging to be "palm oil free". The palm oil is replaced with one of the unhealthy oils and makes the product significantly less healthy.
+I love eating veggies soaked in fat, such as butter or olive oil. Avoid oils like sunflower, canola, or soybean at all costs. Don't buy them and avoid products that contain them. Recently, I have noticed many products bragging to be "palm oil free". These products contain the unhealthy oils and are significantly less healthy.
 
 The fats I limit myself to are:
 
@@ -44,13 +44,13 @@ The fats I limit myself to are:
 
 Aim to eat less, high quality food instead of copious amounts of low-quality junk.
 
-# alcohol
+# Alcohol
 
-Alcohol is one of those things that one usually wants to drink less of. On the short term it affects sleep, reduces motivation, and interrupts your routines. Over the long term the health effects are vast.
+Alcohol is one of those things that one typically wants to drink less of. On the short term it affects sleep, reduces motivation, and interrupts your routines. Over the long term, the health effects are vast.
 
 I use the app [https://lessdrinks.com/](https://lessdrinks.com/ 'Less') to track my alcohol consumption. It is surprisingly easy to forget how much alcohol one consumes, and this acts as a good reminder.
 
-# exercise
+# Exercise
 
 I like exercise. Without it, life would be miserable. Sometimes it is not easy. That's what builds the mental toughness required to take on other challenges.
 
@@ -58,7 +58,7 @@ I exercise so that I can do things in normal life without having to worry about 
 
 The two aspects to work on are endurance and strength. Both need to be worked on simultaneously to build overall fitness. My choices are running and cycling for endurance, and calisthenics and weights for strength.
 
-# barefoot shoes
+# Barefoot shoes
 
 I have used barefoot shoes since 2012.
 The transition took about a year before I could use them for all my activities.
