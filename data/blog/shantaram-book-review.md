@@ -12,9 +12,10 @@ images:
   - '/static/images/shantaram-book.jpg'
 layout:
   - PostLayout
+blog: true
 ---
 
-![Shantaram book cover](/static/images/shantaram-book.jpg 'Shantaram book cover')
+![shantaram-book.jpg](../../public/static/images/shantaram-book.jpg)
 
 Recently on a holiday in Turkey, I settled down to read the book _Shantaram_ by Gregory David Roberts.
 
