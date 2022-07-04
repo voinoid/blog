@@ -12,6 +12,7 @@ summary: Leaders come in different forms and have many developed traits. This po
 images: []
 layout:
   - PostLayout
+blog: true
 ---
 
 Leaders come in many forms and have different beliefs, values, and cultures. This post breaks down some of the high-level differences among leaders and highlights what one should be aware of in a leadership role. It is based on the Coursera course: [https://www.coursera.org/learn/leadership-collaboration](https://www.coursera.org/learn/leadership-collaboration 'https://www.coursera.org/learn/leadership-collaboration')
@@ -122,7 +123,7 @@ You can do the [Multiple Intelligence Survey](https://www.idrlabs.com/multiple-i
 
 Here are my results.
 
-![](/static/images/multiple-intelligences.png)
+![](../../public/static/images/multiple-intelligences.png%5D)
 
 The results show that my top three intelligences are logical-mathematical, bodily-kinaesthetic, and intra-personal. My weaknesses are linguistic and naturalistic.
 
