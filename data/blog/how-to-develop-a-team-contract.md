@@ -14,7 +14,7 @@ images: []
 layout:
 - PostLayout
 draft: true
-
+blog: true
 ---
 Team Contract
 

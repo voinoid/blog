@@ -4,6 +4,8 @@ date: 2021-11-13T00:00:00Z
 tags: ['renewables', 'power systems', 'series']
 draft: false
 summary: 'The world needs to transition to a renewable energy future to limit climate change. Part one of the series investigates the reasons for why we need to update the distribution network to handle more renewables.'
+blog: true
+path: blog/increasing-distributed-generation
 ---
 
 This is the first post in a multipart series that will investigate various ways to increase the amount of renewable energy on the distribution grid.

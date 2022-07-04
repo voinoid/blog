@@ -13,6 +13,7 @@ summary: Cloudflare Access provides a reliable way to create a tunnel between yo
 images: []
 layout:
   - PostLayout
+blog: true
 ---
 
 I recently wanted to access a service on my local computer remotely. The problem was that I generally use a VPN, which means there is no straightforward way to set up port forwarding (At least with my provider).

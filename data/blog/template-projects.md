@@ -14,6 +14,7 @@ authors:
 layout:
   - PostLayout
 images: []
+blog: true
 ---
 
 # introduction
