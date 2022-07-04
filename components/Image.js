@@ -8,11 +8,15 @@ const normalizeSrc = (src) => {
   return src
 }
 
+const normalizeSrcCloudflare = (src) => {
+  return src[0] === '/' ? src.slice(1) : src
+}
+
 const cloudflareImageLoader = ({ src, width, quality }) => {
   if (!quality) {
     quality = 75
   }
-  src = normalizeSrc(src)
+  src = normalizeSrcCloudflare(src)
   return `https://images.denyed.workers.dev?width=${width}&quality=${quality}&image=https://denyed.xyz/${src}`
 }
 
