@@ -1,15 +1,14 @@
 ---
-authors:
-  - default
-title: Set up free custom domain email using Gmail, Cloudflare and an SMTP server
-summary: I wanted an easy way to use a custom domain email addresses, without paying yearly subscriptions. This guide explains the steps required to do so.
+authors: [default]
+title: Free custom domain email using Gmail, Cloudflare and an SMTP server
+summary: I wanted an easy way to use a custom domain email address, without paying yearly subscriptions. This guide explains the steps required to do so.
 date: 2022.09.15
 images:
   - '/static/images/cloudflare-email-routing.png'
-layout:
-  - PostLayout
+layout: PostLayout
 aliases: []
 tags: [how-to, cloudflare]
+canonicalUrl: https://denyed.xyz/blog/free-custom-domain-email
 draft: false
 blog: true
 ---
@@ -17,6 +16,8 @@ blog: true
 # Set up free custom domain email using Gmail, Cloudflare and an SMTP server
 
 I wanted an easy way to use a custom domain email addresses, without paying yearly subscriptions.
+
+The only cost is a domain if you don't have one already.
 
 The goals:
 
@@ -45,7 +46,7 @@ This means you can forward contact@domain.com to youremail@gmail.com.
 
 In the end, you should have something that looks similar to this:
 
-![Cloudflare Email Routing](static/images/cloudflare-email-routing.png)
+![Cloudflare email routing dashboard](/static/images/cloudflare-email-routing.png)
 
 ## Enable email sending
 

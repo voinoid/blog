@@ -1,18 +1,13 @@
 ---
-authors:
-  - default
+authors: [default]
 title: How to remotely access your self-hosted services on any network
-date: 2022-02-02T23:00:00Z
-tags:
-  - how to
-  - guides
-draft: false
-summary: Cloudflare Access provides a reliable way to create a tunnel between your
-  self-hosted service and Cloudflare. This makes it much easier to set up a service
-  with a URL, without worrying about port forwarding or dynamic DNS.
+summary: Cloudflare Access provides a reliable way to create a tunnel between your self-hosted service and Cloudflare. It is much easier to set up a self-hosted service with a domain, without worrying about port forwarding or dynamic DNS.
+date: 2022.02.02
+tags: [how-to, cloudflare]
 images: []
-layout:
-  - PostLayout
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/remotely-access-self-hosted-services-on-any-network
+draft: false
 blog: true
 ---
 

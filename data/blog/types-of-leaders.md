@@ -1,25 +1,21 @@
 ---
-authors:
-  - default
+authors: [default]
 title: Types of leaders
-date: 2022-01-26T00:00:00Z
-tags:
-  - online courses
-  - leadership
-draft: false
-summary: Leaders come in different forms and have many developed traits. This post
-  discusses some of the different leadership styles and where I fit in.
+summary: Leaders come in different forms and have many developed traits. This post discusses some of the different leadership styles and a self reflection of which style represents me best.
+date: 2022.01.26
+tags: [leadership]
 images: []
-layout:
-  - PostLayout
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/types-of-leaders
+draft: false
 blog: true
 ---
 
 Leaders come in many forms and have different beliefs, values, and cultures. This post breaks down some of the high-level differences among leaders and highlights what one should be aware of in a leadership role. It is based on the Coursera course: [https://www.coursera.org/learn/leadership-collaboration](https://www.coursera.org/learn/leadership-collaboration 'https://www.coursera.org/learn/leadership-collaboration')
 
-# leadership development
+# Leadership development
 
-## nature versus nurture
+## Nature versus nurture
 
 Are leaders made or born?
 
@@ -27,7 +23,7 @@ There are two dominant theories of leadership: entity theory, also known as trai
 
 Entity theory argues that leadership is a trait, that one is born with. Incremental theory argues that one can learn to be a leader. I personally subscribe to the incremental theory of leadership. One can be born with certain traits that make one more naturally inclined to become a leader, but leadership skills can be grown and developed through hard work.
 
-## mindset and growth
+## Mindset and growth
 
 Do you have a growth or fixed mindset? Do you believe that you can change who you are and improve your skills with work and practice or do you believe that you are who you are and anything you are good or bad at must stay that way? That is the difference between a fixed and growth mindset.
 
@@ -35,7 +31,7 @@ Growth mindsets are much more successful long term and should be nurtured in you
 
 Have a growth mindset!
 
-## leadership styles
+## Leadership styles
 
 There are two main theories of leadership styles. Theory X leadership and Theory Y leadership.
 
@@ -45,9 +41,9 @@ Theory Y leadership is based upon the idea that people want to contribute and do
 
 In my view, one needs to combine these leadership styles. People should be sufficiently rewarded monetarily, especially when they are contributing significantly to your own or the company's profits. However, the reward should not be the thing that motivates them to work for you. The reward should be a by-product of the intrinsic motivation to do something useful and meaningful.
 
-# motivation, emotion, and cognition
+# Motivation, emotion, and cognition
 
-## intrinsic and extrinsic motivation
+## Intrinsic and extrinsic motivation
 
 Are you intrinsically or extrinsically motivated? What about your colleagues?
 
@@ -55,7 +51,7 @@ Often people believe that they themselves are intrinsically motivated and believ
 
 It is important to nurture and develop the intrinsic motivation in your colleagues and subordinates. You will get far better work from them, and have a
 
-## happiness
+## Happiness
 
 You are either a happy person or not, right? Well, not exactly. According to some rough estimates about 50% of your happiness comes from your genetics, 40% from your intentional activities and 10% from material wealth.
 
@@ -67,7 +63,7 @@ You could take a few views from this:
 
 Let's focus on the 40%. Few people are born with no intrinsic reason to be happy and if the 40% of intentional activity can be controlled, there is a good chance of being happy overall. Focus on behaviours and practices that we do voluntarily such as helping others, adopting a positive view, exercise and have goals you can work towards.
 
-## decision making
+## Decision making
 
 Most people believe that they are good decision makers. They are overconfident in their decision-making prowess. This leads to bias in the decision-making process. Let's discuss a few of these biases and how to overcome them.
 
@@ -79,9 +75,9 @@ Most people believe that they are good decision makers. They are overconfident i
 
 Wherever you are working, it is important to be aware of these biases and work together to not fall prey to their effects.
 
-# people skills
+# People skills
 
-## emotional intelligence
+## Emotional intelligence
 
 Think of your best boss. What characteristics stand out?
 
@@ -91,7 +87,7 @@ The skill related to understanding yourself, and others is known as emotional in
 
 What are the implications for leadership? Emotional intelligence starts with self-awareness. People who are high in self-awareness are more empathic. You can improve your ability to self-regulate with rehearsal and practice and being more self-aware allows you to have more understanding for others.
 
-## organisational intelligence
+## Organisational intelligence
 
 People who span organizational divides and integrate knowledge and best practices around the organisation are much more useful than people that work in silos.
 
@@ -99,7 +95,7 @@ They connect people and ideas.
 
 You want to have a network that is large and spans many different areas of knowledge within your company to maximise value. This is known as organisational intelligence. Good leaders encourage this interconnected behaviour and themselves have good relationships across the organisation.
 
-## cultural intelligence
+## Cultural intelligence
 
 Cultural intelligence is a person's capability to adapt effectively to new cultural contexts.
 
@@ -113,7 +109,7 @@ _Dignity cultures_ are primarily Europe North America, Australia, and New Zealan
 
 _Honor cultures_ are primarily in the Middle East, South Asia, North Africa, and Latin America. Self-worth in honour cultures is socially claimed.
 
-# the multiple intelligences test
+# The multiple intelligences test
 
 Howard Gardner’s theory of multiple intelligences challenges the traditional view that intelligence is a unitary capacity. Gardner proposes that there are at least eight intelligences that can be identified, and they influence how we learn, think, and interact.
 
@@ -123,7 +119,7 @@ You can do the [Multiple Intelligence Survey](https://www.idrlabs.com/multiple-i
 
 Here are my results.
 
-![](../../public/static/images/multiple-intelligences.png%5D)
+![Multiple intelligences test](/static/images/multiple-intelligences.png)
 
 The results show that my top three intelligences are logical-mathematical, bodily-kinaesthetic, and intra-personal. My weaknesses are linguistic and naturalistic.
 
@@ -139,6 +135,6 @@ The next intelligence that I want to work on is my naturalistic intelligence. I 
 
 Working on these two intelligences will help my professional career, by improving communication and information sharing. They will help me become more aware of my surroundings and notice intricate details around me.
 
-# conclusion
+# Conclusion
 
 If you made it this far, thanks for reading! I learnt a lot writing this post and finding out where my strengths and weaknesses lie. Try out the exercise for yourself and come up with a plan to work on your own weaknesses and leverage your strengths in whatever environment you are currently working.

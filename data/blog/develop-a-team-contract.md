@@ -1,21 +1,16 @@
 ---
-authors:
-- default
+authors: [default]
 title: How to develop a team contract
-summary: A team contract can help cement the roles and responsibilities of a team
-  and its members. A team contract includes the goals, norms, and responsibilities
-  of the team.
-date: 2022-02-06T23:00:00Z
-tags:
-- how to
-- leadership
-- online courses
+summary: A team contract can help cement the roles and responsibilities of a team and its members. A team contract includes the goals, norms, and responsibilities of the team.
+date: 2022.02.06
+tags: [how-to, leadership, teams]
 images: []
-layout:
-- PostLayout
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/develop-a-team-contract
 draft: true
 blog: true
 ---
+
 Team Contract
 
 Data science team in a residential property company. We provide support to the business to help with operations, customer interactions and property management.

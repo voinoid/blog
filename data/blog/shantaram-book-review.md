@@ -1,23 +1,20 @@
 ---
+authors: [default]
 title: Shantaram
-date: 2021-11-09T00:00:00Z
-tags:
-  - fiction
-  - books
-draft: false
 summary: A review of the book Shantaram by Gregory David Roberts.
-authors:
-  - default
+date: 2021.11.09
+tags: [fiction, books]
 images:
   - '/static/images/shantaram-book.jpg'
-layout:
-  - PostLayout
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/shantaram-book-review
+draft: false
 blog: true
 ---
 
-![shantaram-book.jpg](../../public/static/images/shantaram-book.jpg)
+![Shantaram book cover](/static/images/shantaram-book.jpg)
 
-Recently on a holiday in Turkey, I settled down to read the book _Shantaram_ by Gregory David Roberts.
+On a holiday in Turkey, I settled down to read the book _Shantaram_ by Gregory David Roberts.
 
 The book is a work of fiction but is based loosely on the life of Gregory after his escape from an Australian prison.
 

@@ -14,36 +14,36 @@ Hold a master's in electrical engineering and wondered my way into data science 
 
 This blog is new, and I will publish articles about my interests over the coming months.
 
-# interests
+# Interests
 
 The world is a complex place. I break things down into useful, actionable insights.
 
-## climate change
+## Climate change
 
-### renewable energy
+### Renewable energy
 
 What are the most effective approaches to integrate renewable energy into the power grid?
 
-### regenerative agriculture
+### Regenerative agriculture
 
 Firm believer that nature knows best but can use a little bit of help from us along the way.
 
 How can we use technology in combination with regenerative agriculture to feed the planet and help solve climate change?
 
-## health
+## Health
 
 Without health, one has nothing.
 
 A healthy person has many problems, an unhealthy person has just one.
 
-### lifespan
+### Lifespan
 
 Discovering simple rules that one can take to maximise health-span and reduce healthcare costs.
 
-### sports
+### Sports
 
 Exercise is a necessity to life and mental well-being. I have cycled many kilometres, run many miles, and lifted many weights.
 
-### mental wellbeing
+### Mental wellbeing
 
 What things can one do to stay mentally sane, reduce anxiety and stress?

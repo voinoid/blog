@@ -1,23 +1,19 @@
 ---
+authors: [default]
 title: My approach to health and fitness
-date: 2021-11-30T00:00:00Z
-tags:
-  - health
-  - fitness
-  - barefoot shoes
-draft: false
-summary: "My 80/20 approach to balancing health and fitness with the rest of life's demands."
-authors:
-  - default
-layout:
-  - PostLayout
+summary: My 80/20 approach to balancing health and fitness with the rest of life's demands.
+date: 2021.11.30
+tags: [health, fitness, barefoot-shoes]
 images: []
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/health-and-fitness
+draft: false
 blog: true
 ---
 
 This post is a summary about what works for me, what I have tried and what I have learned regarding health and fitness.
 
-I intend to update this as I learn more and use it to increase my accountability. As the old saying goes, *“We know that half of what we know about health is wrong, we just don't know which half."*
+I intend to update this as I learn more and use it to increase my accountability. As the old saying goes, _“We know that half of what we know about health is wrong, we just don't know which half."_
 
 While I am not an athlete or health professional, I have absorbed significant amounts of health-related books and podcasts. The below points have stood out.
 

@@ -1,23 +1,17 @@
 ---
+authors: [default]
 title: How to use template projects and repositories
-date: 2021-12-11T00:00:00Z
-tags:
-  - development
-  - teams
-  - growth
-  - templates
-draft: false
-summary: Templates are one of my favourite ways to speed up your workflow. Whether
-  you are working alone, or as part of a larger team, templates have many advantages.
-authors:
-  - default
-layout:
-  - PostLayout
+summary: Templates are one of my favourite ways to speed up and standardize your development workflow. They help both individual and team workflows.
+date: 2021.12.11
+tags: [development, teams, growth, templates]
 images: []
+layout: PostLayout
+canonicalUrl: https://denyed.xyz/blog/template-projects
+draft: false
 blog: true
 ---
 
-# introduction
+# Introduction
 
 Templates are a quick way to bootstrap a repository for a new project and then keep it up to date with your best practices.
 
@@ -29,7 +23,7 @@ A good template allows you to:
 
 Templates allow any improvements to be made in one place and then merged into all the projects that use the template as a base. They are vital when working in teams. Nobody likes repeating work many times over when you are working on multiple different projects at the same time.
 
-# template repositories
+# Template repositories
 
 A template repository should include anything that fits into the standard project workflow that you use. You want to figure something out once, and document it's use by implementation in your template repository.
 
@@ -45,7 +39,7 @@ Things that you should include are:
 
 This is not an exhaustive list. Include everything you would use repetitively.
 
-# how to use templates
+# How to use templates
 
 You have two choices when deciding to use templates.
 
@@ -53,7 +47,7 @@ The first, is creating a new repository from a template, without including the g
 
 The second, and the method which I prefer, is to add a template repository as a remote repository on an empty git-repo. The advantage is that you can pull any changes from your template repository into your projects that derive from it.
 
-## step one: create a repository
+## Step one: create a repository
 
 I like to standardise my project names when they are based upon a template.
 For example, a project that is based on a template for a machine learning API could be named something like:
@@ -65,7 +59,7 @@ where **project-name** is the name of your project.
 After deciding on a name, create the repository.
 Clone this new repository to your local machine.
 
-## step two: add the template repository as a remote
+## Step two: add the template repository as a remote
 
 Follow the following steps to setup the new repository with your template repository. It will be configured as a remote where it is only possible to pull from.
 
@@ -96,7 +90,7 @@ upstream        git@github.com:organisation/template-ml-api.git (fetch)
 upstream        no_push (push)
 ```
 
-## step three: start your project with the template
+## Step three: start your project with the template
 
 Pull from the template repository and allow you to merge any changes that occurred in the base repository by running the following command:
 
@@ -109,6 +103,6 @@ It should be possible to run `git pull upstream master` to merge any changes in 
 
 You will need to update any files that need to be customised to your newly created project. This includes things like project naming, URLS, naming in Kubernetes files and environment variables etc.
 
-# conclusion
+# Conclusion
 
 Template repositories are a good starting point for new projects. They help to speed up your development workflow and enable much faster development rates and efficiencies. You should also have a good understanding about what to put into a template repository. Happy templating!
