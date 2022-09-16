@@ -6,7 +6,6 @@ date: 2022.01.26
 tags: [leadership]
 images: []
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/types-of-leaders
 draft: false
 blog: true
 ---

@@ -6,7 +6,6 @@ date: 2021.12.11
 tags: [development, teams, growth, templates]
 images: []
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/template-projects
 draft: false
 blog: true
 ---

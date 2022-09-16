@@ -6,7 +6,6 @@ date: 2021.11.30
 tags: [health, fitness, barefoot-shoes]
 images: []
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/health-and-fitness
 draft: false
 blog: true
 ---

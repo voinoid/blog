@@ -6,7 +6,6 @@ date: 2022.02.06
 tags: [how-to, leadership, teams]
 images: []
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/develop-a-team-contract
 draft: true
 blog: true
 ---

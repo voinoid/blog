@@ -6,7 +6,6 @@ date: 2022.02.02
 tags: [how-to, cloudflare]
 images: []
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/remotely-access-self-hosted-services-on-any-network
 draft: false
 blog: true
 ---

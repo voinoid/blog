@@ -1,25 +1,27 @@
 ---
-title: 'Increasing the amount of renewables on the distribution grid - Part 1'
-date: 2021-11-13T00:00:00Z
-tags: ['renewables', 'power systems', 'series']
+authors: [default]
+title: Increasing the amount of renewables on the distribution grid - Part 1
+summary: The world needs to transition to a renewable energy future to limit climate change. Part one of the series investigates the reasons for why we need to update the distribution network to handle more renewables.
+date: 2021.11.13
+tags: ['renewables', 'power-systems']
+images: []
+layout: PostLayout
 draft: false
-summary: 'The world needs to transition to a renewable energy future to limit climate change. Part one of the series investigates the reasons for why we need to update the distribution network to handle more renewables.'
 blog: true
-path: blog/increasing-distributed-generation
 ---
 
 This is the first post in a multipart series that will investigate various ways to increase the amount of renewable energy on the distribution grid.
 
 It is based on the work of my [MSc thesis](https://scholar.sun.ac.za/handle/10019.1/86605).
 
-# introduction
+# Introduction
 
 The introduction of renewable generation onto an electricity grid can have profound impact on its reliability, power quality and operation.
 I come from a background in South Africa where a significant amount of renewables will be connected to the medium voltage (MV) distribution network.
 A MV distribution network typically has voltages in the range of 11-33 kV.
 Large plants will be connected to the high voltage (HV) network at 66 kV to 400 kV.
 
-# third world problems
+# Third world problems
 
 The power networks in countries such as South Africa, and other third world countries are significatly different to those in the first world.
 
@@ -36,7 +38,7 @@ Most of the open land and renewable resources lie where no existing infrastructu
 In many cases renewables will have to be connected to weak feeders far away from substations and load centres.
 Costs rise dramatically if long dedicated power lines need to be built to access these resources.
 
-# technical limitiations
+# Technical limitiations
 
 Most distribution systems are passively controlled, designed for one way power flow and control problems are solved during the network planning stage using simple load flow tools.
 To connect the amount of renewables to the power network there are many technical challenges that must be overcome.
@@ -65,7 +67,7 @@ There are various methods which will be discussed in subsequent posts, on how to
 
 Ultimately, I forsee the transformation of the distribution system from a passive network to an distributely controlled, intelligent network.
 
-# objectives
+# Objectives
 
 This series will address some of the issues relating to the installation of renewable generation onto the grid, such as:
 

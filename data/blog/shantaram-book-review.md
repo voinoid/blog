@@ -7,7 +7,6 @@ tags: [fiction, books]
 images:
   - '/static/images/shantaram-book.jpg'
 layout: PostLayout
-canonicalUrl: https://denyed.xyz/blog/shantaram-book-review
 draft: false
 blog: true
 ---

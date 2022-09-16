@@ -8,7 +8,6 @@ images:
 layout: PostLayout
 aliases: []
 tags: [how-to, cloudflare]
-canonicalUrl: https://denyed.xyz/blog/free-custom-domain-email
 draft: false
 blog: true
 ---
