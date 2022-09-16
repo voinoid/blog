@@ -12,8 +12,6 @@ draft: false
 blog: true
 ---
 
-# Set up free custom domain email using Gmail, Cloudflare and an SMTP server
-
 I wanted an easy way to use a custom domain email addresses, without paying yearly subscriptions.
 
 The only cost is a domain if you don't have one already.
@@ -24,14 +22,14 @@ The goals:
 - send and receive email,
 - must be completely free
 
-## Things you will need
+# Things you will need
 
 - An existing email account, I use Gmail.
 - A [Cloudflare account](https://www.cloudflare.com/).
 - A custom domain name on Cloudflare. Transfer it to or buy one using the [Cloudflare registrar](https://www.cloudflare.com/products/registrar/).
 - An email SMTP server such as [sendinblue](https://sendinblue.com), [SendGrid](https://sendgrid.com/) or another of your choice. These allow you to send between 100 and 300 emails a day for free.
 
-## Enable email forwarding
+# Enable email forwarding
 
 This part is done within Cloudflare. Cloudflare will forward any emails recieved on your domain name to an email address of your choice.
 
@@ -47,16 +45,16 @@ In the end, you should have something that looks similar to this:
 
 ![Cloudflare email routing dashboard](/static/images/cloudflare-email-routing.png)
 
-## Enable email sending
+# Enable email sending
 
 This part will be done within your SMTP provider and Gmail (or another email provider of your choice).
 
-### SMTP service setup
+## SMTP service setup
 
 - Authorize/validate your domain under Senders and IPs by adding all the records from the email sender to your Cloudflare DNS page.
 - Add the SPF record to your existing SPF record which was created by Cloudflare instead of creating a new one.
 
-### Gmail setup
+## Gmail setup
 
 - Open Gmail settings and go to the _Accounts and Import_ page.
 - Click _Add another email address_
@@ -76,7 +74,7 @@ There are a few ways to reduce this from happening. If you try several, you'll a
 - Check to see if your sending IP address is on any blacklists. Get it off if you can.
 - Set up [DKIM authentication](http://dkim.org/).
 
-## Conclusion
+# Conclusion
 
 You should be able to send and receive your email on your custom domain name, completely for free.
 

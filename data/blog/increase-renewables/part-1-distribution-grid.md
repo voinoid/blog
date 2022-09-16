@@ -23,7 +23,7 @@ Large plants will be connected to the high voltage (HV) network at 66 kV to 400 
 
 # Third world problems
 
-The power networks in countries such as South Africa, and other third world countries are significatly different to those in the first world.
+The power networks in countries such as South Africa, and other third world countries are significantly different to those in the first world.
 
 The power networks can be characterised by:
 
@@ -38,7 +38,7 @@ Most of the open land and renewable resources lie where no existing infrastructu
 In many cases renewables will have to be connected to weak feeders far away from substations and load centres.
 Costs rise dramatically if long dedicated power lines need to be built to access these resources.
 
-# Technical limitiations
+# Technical limitations
 
 Most distribution systems are passively controlled, designed for one way power flow and control problems are solved during the network planning stage using simple load flow tools.
 To connect the amount of renewables to the power network there are many technical challenges that must be overcome.
@@ -48,7 +48,7 @@ To connect the amount of renewables to the power network there are many technica
 - Stability: Transient stability, long term dynamic stability and voltage collapse
 
 There are basic guidelines to determine if detailed studies need to be performed when connecting a power plant to the grid.
-These guidelines can be summariesed by four main criteria:
+These guidelines can be summariezed by four main criteria:
 
 1. Voltage regulation or voltage rise
 2. Rapid voltage changes
