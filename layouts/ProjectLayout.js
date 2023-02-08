@@ -32,10 +32,8 @@ export default function TutorLayout({ children, frontMatter }) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
-            <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-              {children}
-            </div>
           </div>
+          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
         </div>
       </div>
     </>

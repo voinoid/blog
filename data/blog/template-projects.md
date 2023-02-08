@@ -1,5 +1,5 @@
 ---
-authors: [default]
+authors: [jnye]
 title: How to use template projects and repositories
 summary: Templates are one of my favourite ways to speed up and standardize your development workflow. They help both individual and team workflows.
 date: 2021.12.11

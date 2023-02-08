@@ -1,5 +1,5 @@
 ---
-authors: [default]
+authors: [jnye]
 title: Increasing the amount of renewables on the distribution grid - Part 1
 summary: The world needs to transition to a renewable energy future to limit climate change. Part one of the series investigates the reasons for why we need to update the distribution network to handle more renewables.
 date: 2021.11.13

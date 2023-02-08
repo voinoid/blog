@@ -24,12 +24,12 @@ export async function getStaticProps({ params }) {
   const prev = allPosts[postIndex + 1] || null
   const next = allPosts[postIndex - 1] || null
   const post = await getFileBySlug('blog', params.slug.join('/'))
-  const tutorList = post.frontMatter.tutors || ['default']
-  const tutorPromise = tutorList.map(async (tutor) => {
-    const tutorResults = await getFileBySlug('tutor', [tutor])
-    return tutorResults.frontMatter
+  const authorList = post.frontMatter.authors || ['default']
+  const authorPromise = authorList.map(async (author) => {
+    const authorResults = await getFileBySlug('tutor', [author])
+    return authorResults.frontMatter
   })
-  const tutorDetails = await Promise.all(tutorPromise)
+  const authorDetails = await Promise.all(authorPromise)
 
   // rss
   if (allPosts.length > 0) {
@@ -37,10 +37,10 @@ export async function getStaticProps({ params }) {
     fs.writeFileSync('./public/feed.xml', rss)
   }
 
-  return { props: { post, tutorDetails, prev, next } }
+  return { props: { post, authorDetails, prev, next } }
 }
 
-export default function Blog({ post, tutorDetails, prev, next }) {
+export default function Blog({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
 
   return (
@@ -51,7 +51,7 @@ export default function Blog({ post, tutorDetails, prev, next }) {
           toc={toc}
           mdxSource={mdxSource}
           frontMatter={frontMatter}
-          tutorDetails={tutorDetails}
+          tutorDetails={authorDetails}
           prev={prev}
           next={next}
         />

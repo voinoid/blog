@@ -1,5 +1,5 @@
 ---
-authors: [default]
+authors: [jnye]
 title: Types of leaders
 summary: Leaders come in different forms and have many developed traits. This post discusses some of the different leadership styles and a self reflection of which style represents me best.
 date: 2022.01.26
