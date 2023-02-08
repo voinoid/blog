@@ -1,20 +1,21 @@
 const siteMetadata = {
-  title: 'uncommon sense',
-  author: 'Jonathan Nye',
-  headerTitle: 'uncommon sense',
-  description: 'My simplified view of the world',
+  title: 'Funatic Maths',
+  author: 'Michael Nye',
+  headerTitle: 'Funatic Maths',
+  description: 'Mathematics Tutoring and Resources',
   language: 'en-us',
-  siteUrl: 'https://denyed.xyz',
-  siteRepo: 'https://github.com/nyejon/blog',
-  siteLogo: '/static/uncommon-sense.png',
-  image: '/static/uncommon-sense.png',
-  socialBanner: '/static/uncommon-sense.png',
-  email: 'contact@denyed.xyz',
-  github: 'https://github.com/nyejon',
+  siteUrl: 'https://www.funaticmaths.com',
+  workerImgUrl: 'https://images.michaeltnye.workers.dev',
+  siteRepo: 'https://github.com/voinoid/funaticmaths_v2',
+  siteLogo: '/static/funaticmaths.svg',
+  image: '/static/funaticmaths.svg',
+  socialBanner: '/static/funaticmaths.svg',
+  email: 'MrNyeTheMathGuy@gmail.com',
+  github: 'https://github.com/voinoid',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
-  twitter: 'https://twitter.com/nyejon',
-  linkedin: 'https://www.linkedin.com/in/nyejonathan/',
+  // twitter: 'https://twitter.com',
+  linkedin: 'https://www.linkedin.com/in/michael-nye/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -23,7 +24,7 @@ const siteMetadata = {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: 'G-C4P89KG5LF', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
     posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
   },
   newsletter: {

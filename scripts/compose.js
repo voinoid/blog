@@ -5,8 +5,8 @@ const dedent = require('dedent')
 
 const root = process.cwd()
 
-const getAuthors = () => {
-  const authorPath = path.join(root, 'data', 'authors')
+const getTutors = () => {
+  const authorPath = path.join(root, 'data', 'tutor')
   const authorList = fs.readdirSync(authorPath).map((filename) => path.parse(filename).name)
   return authorList
 }
@@ -30,7 +30,7 @@ const genFrontMatter = (answers) => {
   const tagArray = answers.tags.split(',')
   tagArray.forEach((tag, index) => (tagArray[index] = tag.trim()))
   const tags = "'" + tagArray.join("','") + "'"
-  const authorArray = answers.authors.length > 0 ? "'" + answers.authors.join("','") + "'" : ''
+  const authorArray = answers.tutor.length > 0 ? "'" + answers.tutor.join("','") + "'" : ''
 
   let frontMatter = dedent`---
   title: ${answers.title ? answers.title : 'Untitled'}
@@ -43,8 +43,8 @@ const genFrontMatter = (answers) => {
   canonicalUrl: ${answers.canonicalUrl}
   `
 
-  if (answers.authors.length > 0) {
-    frontMatter = frontMatter + '\n' + `authors: [${authorArray}]`
+  if (answers.tutor.length > 0) {
+    frontMatter = frontMatter + '\n' + `tutor: [${authorArray}]`
   }
 
   frontMatter = frontMatter + '\n---'
@@ -66,10 +66,10 @@ inquirer
       choices: ['mdx', 'md'],
     },
     {
-      name: 'authors',
-      message: 'Choose authors:',
+      name: 'tutor',
+      message: 'Choose tutor:',
       type: 'checkbox',
-      choices: getAuthors,
+      choices: getTutors,
     },
     {
       name: 'summary',

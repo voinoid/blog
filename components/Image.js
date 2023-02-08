@@ -1,12 +1,6 @@
+// Updates the next/image to work with Cloudflare
 import NextImage from 'next/image'
-
-// const normalizeSrc = src => {
-//   // if ../../public in src, remove it
-//   if (src.includes('../../public')) {
-//     return src.replace('../../public', '')
-//   }
-//   return src
-// }
+import siteMetadata from '@/data/siteMetadata'
 
 const normalizeSrcCloudflare = (src) => {
   return src[0] === '/' ? src.slice(1) : src
@@ -17,7 +11,7 @@ const cloudflareImageLoader = ({ src, width, quality }) => {
     quality = 75
   }
   src = normalizeSrcCloudflare(src)
-  return `https://images.denyed.workers.dev?width=${width}&quality=${quality}&image=https://denyed.xyz/${src}`
+  return `${siteMetadata.workerImgUrl}?width=${width}&quality=${quality}&image=${siteMetadata.siteURL}${src}`
 }
 
 const Image = ({ ...props }) => {

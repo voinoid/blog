@@ -1,9 +1,16 @@
 import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
+import tutorsData from '@/data/tutor/tutorsData'
+import Card from '@/components/cards/TutorCard'
 import { PageSEO } from '@/components/SEO'
+import { getAllFilesFrontMatter } from '@/lib/mdx'
 
-export default function Projects() {
+export async function getStaticProps() {
+  const tutors = await getAllFilesFrontMatter('tutor')
+
+  return { props: { tutors } }
+}
+
+export default function Tutors({ tutors }) {
   return (
     <>
       <PageSEO title={`Projects - ${siteMetadata.author}`} description={siteMetadata.description} />
@@ -18,12 +25,12 @@ export default function Projects() {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {tutorsData.map((d) => (
               <Card
-                key={d.title}
-                title={d.title}
+                key={d.name}
+                name={d.name}
                 description={d.description}
-                imgSrc={d.imgSrc}
+                avatar={d.avatar}
                 href={d.href}
               />
             ))}
