@@ -1,6 +1,6 @@
 ---
 name: Jonathan Nye
-avatar:
+avatar: '/static/images/tutor/owl.jpg'
 occupation: Engineer
 grades:
 subjects:
