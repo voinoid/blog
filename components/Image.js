@@ -8,7 +8,7 @@ const normalizeSrcCloudflare = (src) => {
 
 const cloudflareImageLoader = ({ src, width, quality }) => {
   if (!quality) {
-    quality = 75
+    quality = 50
   }
   src = normalizeSrcCloudflare(src)
   return `${siteMetadata.workerImgUrl}?width=${width}&quality=${quality}&image=${siteMetadata.siteUrl}${src}`
