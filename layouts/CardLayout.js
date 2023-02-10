@@ -16,23 +16,21 @@ export default function CardLayout({ posts, initialDisplayCards = [] }) {
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         {!filteredBlogPosts.length && 'No tutors found.'}
-        <div className="container py-2">
-          <div className="-m-4 flex flex-wrap">
-            {displayPosts.map((frontMatter) => {
-              const { slug, name, avatar, occupation, subjects, grades } = frontMatter
-              return (
-                <Card
-                  key={name}
-                  title={name}
-                  description={occupation}
-                  imgSrc={avatar}
-                  subjects={subjects}
-                  grades={grades}
-                  href={`/tutors/${slug}`}
-                />
-              )
-            })}
-          </div>
+        <div className="flex flex-wrap">
+          {displayPosts.map((frontMatter) => {
+            const { slug, name, avatar, occupation, subjects, grades } = frontMatter
+            return (
+              <Card
+                key={name}
+                title={name}
+                description={occupation}
+                imgSrc={avatar}
+                subjects={subjects}
+                grades={grades}
+                href={`/tutors/${slug}`}
+              />
+            )
+          })}
         </div>
       </div>
     </>

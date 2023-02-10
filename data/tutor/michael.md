@@ -8,8 +8,8 @@ email: MrNyeTheMathGuy@gmail.com
 linkedin: https://www.linkedin.com/in/michael-nye/
 github: https://github.com/voinoid
 rank: 1
-date: 2022.02.06
-tags: []
+date: 2023.02.10
+tags: [Mathematics]
 layout: TutorLayout
 ---
 

@@ -1,5 +1,4 @@
 import Link from '@/components/Link'
-import ExamTitle from '@/components/ExamTitle'
 import SectionContainer from '@/components/SectionContainer'
 import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
@@ -7,9 +6,12 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import formatDate from '@/lib/utils/formatDate'
+
+const examDateTemplate = { year: 'numeric', month: 'long' }
 
 export default function PostLayout({ frontMatter, tutorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, summary, images, tags } = frontMatter
+  const { slug, fileName, date_written, title, paper, images, tags } = frontMatter
 
   return (
     <SectionContainer>
@@ -22,7 +24,14 @@ export default function PostLayout({ frontMatter, tutorDetails, next, prev, chil
       <article>
         <header>
           <div className="space-y-1">
-            <ExamTitle>{summary}</ExamTitle>
+            <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-3xl">
+              <dt className="sr-only">Written on</dt>
+              <time dateTime={date_written}>
+                {new Date(date_written).toLocaleDateString(siteMetadata.locale, examDateTemplate)}
+              </time>
+              <br></br>
+              {paper}
+            </h3>
           </div>
         </header>
         <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
@@ -69,10 +78,10 @@ export default function PostLayout({ frontMatter, tutorDetails, next, prev, chil
           </div>
           <div className="pt-4 xl:pt-8">
             <Link
-              href="/blog"
+              href="/exam"
               className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
-              &larr; Back to the blog
+              &larr; Back to the exams
             </Link>
           </div>
         </footer>
