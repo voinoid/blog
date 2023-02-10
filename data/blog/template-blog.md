@@ -1,13 +1,13 @@
 ---
 authors: [default]
-title:
-summary:
+title: Template
+summary: This is a template
 date: 2021.12.11
-tags: [development, teams]
+tags: [template]
 images: []
 layout: PostLayout
 draft: false
 blog: true
 ---
 
-# Introduction
+# Template
