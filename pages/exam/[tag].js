@@ -1,7 +1,6 @@
 import { TagSEO } from '@/components/SEO'
-import siteMetadata from '@/data/siteMetadata'
 import ExamListLayout from '@/layouts/ExamListLayout'
-import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
+import { getAllFilesFrontMatter } from '@/lib/mdx'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 

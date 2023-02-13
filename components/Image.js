@@ -18,7 +18,6 @@ const Image = ({ ...props }) => {
   // This normalizes the src to be relative to the public folder
 
   // var src = normalizeSrc(props.src)
-  // console.log(src)
   if (process.env.NODE_ENV === 'development') {
     return <NextImage unoptimized={true} {...props} />
   } else {

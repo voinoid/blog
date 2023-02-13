@@ -2,8 +2,6 @@ import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 
-import NewsletterForm from '@/components/NewsletterForm'
-
 export default function Home() {
   return (
     <>

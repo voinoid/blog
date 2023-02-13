@@ -1,4 +1,3 @@
-import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import CardLayout from '@/layouts/CardLayout'
