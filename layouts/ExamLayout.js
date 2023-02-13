@@ -9,14 +9,15 @@ import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import formatDate from '@/lib/utils/formatDate'
 
 const examDateTemplate = { year: 'numeric', month: 'long' }
+const FOLDER = 'exam'
 
-export default function PostLayout({ frontMatter, tutorDetails, next, prev, children }) {
+export default function ExamLayout({ frontMatter, tutorDetails, next, prev, children }) {
   const { slug, fileName, date_written, title, paper, images, tags } = frontMatter
 
   return (
     <SectionContainer>
       <BlogSEO
-        url={`${siteMetadata.siteUrl}/exam/${slug}`}
+        url={`${siteMetadata.siteUrl}/${FOLDER}/${slug}`}
         tutorDetails={tutorDetails}
         {...frontMatter}
       />
@@ -46,39 +47,39 @@ export default function PostLayout({ frontMatter, tutorDetails, next, prev, chil
                 </h2>
                 <div className="flex flex-wrap">
                   {tags.map((tag) => (
-                    <Tag key={tag} text={tag} />
+                    <Tag key={tag} folder={FOLDER} text={tag} />
                   ))}
                 </div>
               </div>
             )}
             {(next || prev) && (
               <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
-                {prev && (
-                  <div>
-                    <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                      Previous Article
-                    </h2>
+                <div>
+                  <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                    Previous Article
+                  </h2>
+                  {prev && (
                     <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
-                      <Link href={`/exam/${prev.slug}`}>{prev.title}</Link>
+                      <Link href={`/${FOLDER}/${prev.slug}`}>{prev.title}</Link>
                     </div>
-                  </div>
-                )}
-                {next && (
-                  <div>
-                    <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                      Next Article
-                    </h2>
+                  )}
+                </div>
+                <div>
+                  <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                    Next Article
+                  </h2>
+                  {next && (
                     <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
-                      <Link href={`/exam/${next.slug}`}>{next.title}</Link>
+                      <Link href={`/${FOLDER}/${next.slug}`}>{next.title}</Link>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             )}
           </div>
           <div className="pt-4 xl:pt-8">
             <Link
-              href="/exam"
+              href={`/${FOLDER}`}
               className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             >
               &larr; Back to the exams

@@ -7,8 +7,16 @@ export const TUTORS_PER_PAGE = 6
 
 export async function getStaticProps() {
   const tutors = await getAllFilesFrontMatter('tutor', 'rank')
-  // Drop the default Tutor at Rank 0
-  tutors.shift()
+
+  // Remove the inactive Tutors.
+  var tutorsToRemove = tutors.filter((x) => x.active === false)
+  tutorsToRemove.forEach((x) =>
+    tutors.splice(
+      tutors.findIndex((n) => n === x),
+      1
+    )
+  )
+
   const initialDisplayTutors = tutors.slice(0, TUTORS_PER_PAGE)
 
   return { props: { tutors, initialDisplayTutors } }

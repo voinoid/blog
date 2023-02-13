@@ -1,6 +1,4 @@
-import fs from 'fs'
 import PageTitle from '@/components/PageTitle'
-import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 
@@ -8,11 +6,11 @@ const DEFAULT_LAYOUT = 'ExamLayout'
 const FOLDER = 'exam'
 
 export async function getStaticPaths() {
-  const posts = getFiles(FOLDER)
+  const items = getFiles(FOLDER)
   return {
-    paths: posts.map((p) => ({
+    paths: items.map((i) => ({
       params: {
-        slug: formatSlug(p).split('/'),
+        slug: formatSlug(i).split('/'),
       },
     })),
     fallback: false,
@@ -20,29 +18,23 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter(FOLDER)
-  const postIndex = allPosts.findIndex((post) => formatSlug(post.slug) === params.slug.join('/'))
-  const prev = allPosts[postIndex + 1] || null
-  const next = allPosts[postIndex - 1] || null
-  const post = await getFileBySlug(FOLDER, params.slug.join('/'))
-  const authorList = post.frontMatter.authors || ['default']
+  const allItems = await getAllFilesFrontMatter(FOLDER)
+  const itemIndex = allItems.findIndex((item) => formatSlug(item.slug) === params.slug.join('/'))
+  const prev = allItems[itemIndex + 1] || null
+  const next = allItems[itemIndex - 1] || null
+  const item = await getFileBySlug(FOLDER, params.slug.join('/'))
+  const authorList = item.frontMatter.authors || ['default']
   const authorPromise = authorList.map(async (author) => {
     const authorResults = await getFileBySlug('tutor', [author])
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
 
-  // rss
-  if (allPosts.length > 0) {
-    const rss = generateRss(allPosts)
-    fs.writeFileSync('./public/feed.xml', rss)
-  }
-
-  return { props: { post, authorDetails, prev, next } }
+  return { props: { item, authorDetails, prev, next } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
-  const { mdxSource, toc, frontMatter } = post
+export default function Exam({ item, authorDetails, prev, next }) {
+  const { mdxSource, toc, frontMatter } = item
 
   return (
     <>
