@@ -1,4 +1,6 @@
 import PageTitle from '@/components/PageTitle'
+import Link from '@/components/Link'
+import Tag from '@/components/Tag'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 
@@ -35,7 +37,7 @@ export async function getStaticProps({ params }) {
 
 export default function Exam({ item, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = item
-
+  const { tags } = frontMatter
   return (
     <>
       {frontMatter.draft !== true ? (
@@ -58,6 +60,54 @@ export default function Exam({ item, authorDetails, prev, next }) {
           </PageTitle>
         </div>
       )}
+      <footer>
+        <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
+          {tags && (
+            <div className="py-4 xl:py-8">
+              <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                Tags
+              </h2>
+              <div className="flex flex-wrap">
+                {tags.map((tag) => (
+                  <Tag key={tag} folder={FOLDER} text={tag} />
+                ))}
+              </div>
+            </div>
+          )}
+          {(next || prev) && (
+            <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
+              <div>
+                <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                  Previous Article
+                </h2>
+                {prev && (
+                  <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                    <Link href={`/${FOLDER}/${prev.slug}`}>{prev.title}</Link>
+                  </div>
+                )}
+              </div>
+              <div>
+                <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                  Next Article
+                </h2>
+                {next && (
+                  <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                    <Link href={`/${FOLDER}/${next.slug}`}>{next.title}</Link>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="pt-4 xl:pt-8">
+          <Link
+            href={`/${FOLDER}`}
+            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+          >
+            &larr; Back to the exams
+          </Link>
+        </div>
+      </footer>
     </>
   )
 }

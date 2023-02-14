@@ -1,6 +1,6 @@
 import { TagSEO } from '@/components/SEO'
 import ExamListLayout from '@/layouts/ExamListLayout'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
+import { getAllFilesFrontMatter, getFileBySlug } from '@/lib/mdx'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 
@@ -32,7 +32,15 @@ export async function getStaticProps({ params }) {
     return 0
   })
 
-  return { props: { items: filteredItems, tag: params.tag } }
+  //Get all the item Data with the front matter.
+  const itemPromise = filteredItems.map(async (frontMatter) => {
+    const { slug } = frontMatter
+    const itemData = await getFileBySlug(FOLDER, slug)
+    return itemData
+  })
+  const allItemData = await Promise.all(itemPromise)
+
+  return { props: { items: allItemData, tag: params.tag } }
 }
 
 export default function Tag({ items, tag }) {

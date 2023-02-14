@@ -8,9 +8,7 @@ import Tag from '@/components/Tag'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 
-import NewsletterForm from '@/components/NewsletterForm'
-
-const MAX_DISPLAY = 10
+const MAX_DISPLAY = 15
 const FOLDER = 'exam'
 
 export async function getStaticProps() {
@@ -37,7 +35,7 @@ export default function Exam({ items, tags }) {
             {Object.keys(tags).length === 0 && 'No tags found.'}
             {sortedTags.map((t) => {
               return (
-                <div key={t} className="mt-2 mb-2 mr-5">
+                <div key={t} className="mt-1 mb-1 mr-5">
                   <Tag text={t} folder={FOLDER} count={tags[t]} />
                 </div>
               )
@@ -86,11 +84,6 @@ export default function Exam({ items, tags }) {
           >
             all items &rarr;
           </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
         </div>
       )}
     </>
