@@ -59,7 +59,7 @@ export default function Exam({ items, tags }) {
                           href={`/${FOLDER}/${slug}`}
                           className="text-gray-900 dark:text-gray-100"
                         >
-                          {title}
+                          {title} <small> - {summary}</small>
                         </Link>
                       </h2>
                       {/*<div className="flex flex-wrap">

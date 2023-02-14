@@ -20,9 +20,9 @@ export default function ExamListLayout({ items, title }) {
             const { mdxSource, toc, frontMatter } = item
             const { slug, date, title, tags } = frontMatter
             return (
-              <li key={slug} className="py-4">
-                <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                  <div className="space-y-3 xl:col-span-3">
+              <li key={slug} className="py-2">
+                <article className="space-y-1 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                  <div className="xl:col-span-3">
                     <div>
                       <MDXLayoutRenderer
                         layout={frontMatter.layout || DEFAULT_LAYOUT}
