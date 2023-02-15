@@ -18,7 +18,7 @@ export default function CardLayout({ posts, initialDisplayCards = [] }) {
         {!filteredBlogPosts.length && 'No tutors found.'}
         <div className="flex flex-wrap">
           {displayPosts.map((frontMatter) => {
-            const { slug, name, avatar, occupation, subjects, grades } = frontMatter
+            const { slug, name, avatar, occupation, subjects, grades, location } = frontMatter
             return (
               <Card
                 key={name}
@@ -27,6 +27,7 @@ export default function CardLayout({ posts, initialDisplayCards = [] }) {
                 imgSrc={avatar}
                 subjects={subjects}
                 grades={grades}
+                location={location}
                 href={`/tutors/${slug}`}
               />
             )

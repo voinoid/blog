@@ -29,7 +29,15 @@ export default function Exam({ items, tags }) {
             Exam Questions
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            All exam questions come directly out of Grade 12 NSC Examination Papers. (
+            <a
+              href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/tabid/338/Default.aspx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.education.gov.za
+            </a>
+            )
           </p>
           <div className="flex max-w-lg flex-wrap">
             {Object.keys(tags).length === 0 && 'No tags found.'}

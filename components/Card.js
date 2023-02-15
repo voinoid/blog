@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, subjects, grades, href }) => (
+const Card = ({ title, description, imgSrc, subjects, grades, location, href }) => (
   <div className="md flex flex-col p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -33,6 +33,7 @@ const Card = ({ title, description, imgSrc, subjects, grades, href }) => (
         <div className="text-gray-500 dark:text-gray-400">{description}</div>
         <div className="text-gray-500 dark:text-gray-400">{subjects}</div>
         <div className="text-gray-500 dark:text-gray-400">{grades}</div>
+        <div className="text-gray-500 dark:text-gray-400">{location}</div>
         {href && (
           <Link
             href={href}
