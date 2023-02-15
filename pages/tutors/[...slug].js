@@ -35,11 +35,13 @@ export default function Tutor({ tutor, prev, next }) {
   return (
     <>
       {frontMatter.draft !== true ? (
-        <MDXLayoutRenderer
-          layout={frontMatter.layout || DEFAULT_LAYOUT}
-          mdxSource={mdxSource}
-          frontMatter={frontMatter}
-        />
+        <div className="flex">
+          <MDXLayoutRenderer
+            layout={frontMatter.layout || DEFAULT_LAYOUT}
+            mdxSource={mdxSource}
+            frontMatter={frontMatter}
+          />
+        </div>
       ) : (
         <div className="mt-24 text-center">
           <PageTitle>
