@@ -37,10 +37,10 @@ In person lessons are offered at my home in **Bergvliet, Cape Town** or by negot
 <thead>
     <tr>
     <td>No. of Learners</td>
-    <td>Grades $8 - 9$</td>
-    <td>Grade $10$</td>
-    <td>Grade $11$</td>
-    <td>Grade $12$</td>
+    <td>Gr $8 - 9$</td>
+    <td>Gr $10$</td>
+    <td>Gr $11$</td>
+    <td>Gr $12$</td>
     </tr>
 </thead>
   <tbody>
