@@ -31,14 +31,13 @@ In person lessons are offered at my home in **Bergvliet, Cape Town** or by negot
 
 ## Prices
 
-#### Online and In-Person (per hour)
+#### Online or In-Person (per hour)
 
 <table class="border">
 <thead>
     <tr>
     <td>No. of Learners</td>
-    <td>Grade $8$</td>
-    <td>Grade $9$</td>
+    <td>Grades $8 - 9$</td>
     <td>Grade $10$</td>
     <td>Grade $11$</td>
     <td>Grade $12$</td>
@@ -48,7 +47,6 @@ In person lessons are offered at my home in **Bergvliet, Cape Town** or by negot
     <tr>
       <td>$\;\;1$</td>
       <td>$R300$</td>
-      <td>$R300$</td>
       <td>$R350$</td>
       <td>$R400$</td>
       <td>$R450$</td>
@@ -56,14 +54,12 @@ In person lessons are offered at my home in **Bergvliet, Cape Town** or by negot
     <tr>
       <td>$\;\;2$</td>
       <td>$R400$ $(R200 pp)$</td>
-      <td>$R400$ $(R200 pp)$</td>
       <td>$R450$ $(R225 pp)$</td>
       <td>$R500$ $(R250 pp)$</td>
       <td>$R550$ $(R275 pp)$</td>
     </tr>
     <tr>
       <td>$\;\;3$</td>
-      <td>$R450$ $(R150 pp)$</td>
       <td>$R450$ $(R150 pp)$</td>
       <td>$R525$ $(R175 pp)$</td>
       <td>$R600$ $(R200 pp)$</td>

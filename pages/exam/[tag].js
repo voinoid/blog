@@ -25,10 +25,10 @@ export async function getStaticProps({ params }) {
   const filteredItems = allItems.filter((item) =>
     item.tags.map((t) => kebabCase(t)).includes(params.tag)
   )
-  //Sort Alphabetically
+  //Sort by Question Number
   filteredItems.sort(function (a, b) {
-    if (a.title < b.title) return -1
-    if (a.title > b.title) return 1
+    if (a.q_number < b.q_number) return -1
+    if (a.q_number > b.q_number) return 1
     return 0
   })
 
