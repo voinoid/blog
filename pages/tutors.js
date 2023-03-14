@@ -24,7 +24,11 @@ export async function getStaticProps() {
 export default function Tutors({ tutors, initialDisplayTutors }) {
   return (
     <>
-      <PageSEO title={`Tutors`} description={`Below are some Tutors eager to help you.`} />
+      <PageSEO
+        title={`Funatic Maths Tutors`}
+        description={`A list of Tutors with brief descriptions associated with Funatic Maths.`}
+        keywords={`tutors, tutoring`}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-1 pt-0 pb-8">
           <h1 className="text-3xl font-extrabold leading-10 tracking-tight text-gray-900 dark:text-gray-100">

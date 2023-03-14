@@ -11,7 +11,7 @@ const cloudflareImageLoader = ({ src, width, quality }) => {
     quality = 50
   }
   src = normalizeSrcCloudflare(src)
-  return `${siteMetadata.workerImgUrl}?width=${width}&quality=${quality}&image=${siteMetadata.siteUrl}${src}`
+  return `${siteMetadata.workerImgUrl}?width=${width}&quality=${quality}&image=${siteMetadata.siteUrl}/${src}`
 }
 
 const Image = ({ ...props }) => {

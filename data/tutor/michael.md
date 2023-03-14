@@ -11,13 +11,14 @@ github: https://github.com/voinoid
 rank: 1
 date: 2023.02.10
 tags: [Mathematics]
+keywords: mathematics, grade 8, grade 9, grade 10, grade 11, grade 12, online, in-person
 layout: TutorLayout
 active: true
 ---
 
 ## About
 
-I offer my enthusiasm and experience towards **Mathematics Tutoring**. I have 3 years of experience teaching within a classroom environment. This has allowed me to work closely with a large variety of learners and ways of thinking. I believe that my teaching expereince can help you to determine which Mathematical building blocks require additional attention. We can then work together in building a stable Mathematical foundation. I place a strong emphasis on understanding before answering specific types of questions; however, I still understand the importance of results in your Final Matric Exams. I look forward to talking more about Mathematics with you!
+I offer my enthusiasm and experience towards **Mathematics Tutoring**. I have 3 years of experience teaching within a classroom environment. This has allowed me to work closely with a large variety of learners and ways of thinking. I believe that my teaching experience can help you to determine which Mathematical building blocks require additional attention. We can then work together in building a stable Mathematical foundation. I place a strong emphasis on understanding before answering specific types of questions; however, I still understand the importance of results in your Final Matric Exams. I look forward to talking more about Mathematics with you!
 
 ## Qualifications
 
@@ -33,7 +34,7 @@ In person lessons are offered at my home in **Bergvliet, Cape Town** or by negot
 
 #### Online or In-Person (per hour)
 
-<table class="border">
+<table className="border">
 <thead>
     <tr>
     <td>No. of Learners</td>

@@ -4,19 +4,21 @@ title: Information Sheet
 summary: Given Exam Formulas
 paper: Information Sheet
 date_written: 2010.10.10
-date: 2022.02.17
+date_published: 2022.02.10
+date_modified: 2022.02.10
 tags: [information sheet]
+keywords: information sheet
 images: []
-layout: InfoSheetLayout
+layout: ExamLayout
 draft: false
 blog: true
 ---
 
-<table class="border-collapse">
+<table className="border-collapse">
   <tbody>
     <tr>
       <td>Quadratic Formula:<br></br> 
-      $x=\frac{\displaystyle -b \pm \sqrt{b^2-4ac}}{\displaystyle 2a}$</td>
+      $x=\frac{\displaystyle -b \pm \sqrt{b^2-4ac}}{\displaystyle 2a}$ $\quad \text{where}\quad ax^2+bx+c=0$</td>
     </tr> 
     <tr>
       <td>Finance:<br></br>

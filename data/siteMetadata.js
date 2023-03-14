@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: 'Funatic Maths',
   description: 'Mathematics Tutoring and Resources',
   language: 'en-us',
-  siteUrl: 'https://www.funaticmaths.com/',
+  siteUrl: 'https://www.funaticmaths.com',
   workerImgUrl: 'https://images.michaeltnye.workers.dev/',
   siteRepo: 'https://github.com/voinoid/funaticmaths_v2',
   siteLogo: '/static/funaticmaths.svg',

@@ -5,7 +5,11 @@ import siteMetadata from '@/data/siteMetadata'
 export default function Home() {
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <PageSEO
+        title={siteMetadata.title}
+        description={siteMetadata.description}
+        keywords={`welcome, home`}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
@@ -17,7 +21,7 @@ export default function Home() {
         </div>
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <p>
-            Here at Funatic Maths we put the fun into fanatic! Each of our Tutors find joy in
+            Here at Funatic Maths we put the fun into fanatic! Each of our Tutors finds joy in
             sharing their subject knowledge. All of our Tutors have classroom teaching experience.
             Feel free to{' '}
             <Link href={'/tutors'}>

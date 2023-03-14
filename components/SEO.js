@@ -2,13 +2,17 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
 
-const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl }) => {
+const CommonSEO = ({ title, description, keywords, ogType, ogImage }) => {
   const router = useRouter()
   return (
     <Head>
       <title>{title}</title>
       <meta name="robots" content="follow, index" />
       <meta name="description" content={description} />
+      <meta
+        name="keywords"
+        content={`funatic, maths, mathematics, tutor, tutoring, funatic maths, south africa, cape town, education, mathematics resources, ${keywords}`}
+      />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
       <meta property="og:type" content={ogType} />
       <meta property="og:site_name" content={siteMetadata.title} />
@@ -19,63 +23,50 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       ) : (
         <meta property="og:image" content={ogImage} key={ogImage} />
       )}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content={siteMetadata.twitter} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={twImage} />
     </Head>
   )
 }
 
-export const PageSEO = ({ title, description }) => {
+export const PageSEO = ({ title, description, keywords }) => {
   const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
-  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   return (
     <CommonSEO
       title={title}
       description={description}
+      keywords={keywords}
       ogType="website"
       ogImage={ogImageUrl}
-      twImage={twImageUrl}
     />
   )
 }
 
-export const TagSEO = ({ title, description }) => {
+export const TagSEO = ({ title, description, keywords }) => {
   const ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
-  const twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   const router = useRouter()
   return (
     <>
-      <CommonSEO
-        title={title}
-        description={description}
-        ogType="website"
-        ogImage={ogImageUrl}
-        twImage={twImageUrl}
-      />
+      <CommonSEO title={title} description={description} ogType="website" ogImage={ogImageUrl} />
       <Head>
         <link
           rel="alternate"
           type="application/rss+xml"
           title={`${description} - RSS feed`}
-          href={`${siteMetadata.siteUrl}${router.asPath}/feed.xml`}
+          href={`${siteMetadata.siteUrl}/${router.asPath}/feed.xml`}
         />
       </Head>
     </>
   )
 }
 
-export const BlogSEO = ({
+export const ExamSEO = ({
   authorDetails,
   title,
-  summary,
+  description,
   date,
   lastmod,
   url,
   images = [],
-  canonicalUrl,
+  keywords,
 }) => {
   const router = useRouter()
   const publishedAt = new Date(date).toISOString()
@@ -129,20 +120,17 @@ export const BlogSEO = ({
         url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`,
       },
     },
-    description: summary,
+    description: description,
   }
-
-  const twImageUrl = featuredImages[0].url
 
   return (
     <>
       <CommonSEO
         title={title}
-        description={summary}
+        description={description}
+        keywords={keywords}
         ogType="article"
         ogImage={featuredImages}
-        twImage={twImageUrl}
-        canonicalUrl={canonicalUrl}
       />
       <Head>
         {date && <meta property="article:published_time" content={publishedAt} />}
@@ -155,5 +143,31 @@ export const BlogSEO = ({
         />
       </Head>
     </>
+  )
+}
+
+export const TutorSEO = ({ title, description, images = [], keywords }) => {
+  let imagesArr =
+    images.length === 0
+      ? [siteMetadata.socialBanner]
+      : typeof images === 'string'
+      ? [images]
+      : images
+
+  const featuredImages = imagesArr.map((img) => {
+    return {
+      '@type': 'ImageObject',
+      url: img.includes('http') ? img : siteMetadata.siteUrl + img,
+    }
+  })
+
+  return (
+    <CommonSEO
+      title={title}
+      description={description}
+      keywords={keywords}
+      ogType="profile"
+      ogImage={featuredImages}
+    />
   )
 }

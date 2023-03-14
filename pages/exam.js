@@ -22,7 +22,11 @@ export default function Exam({ items, tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <PageSEO
+        title={siteMetadata.title}
+        description={siteMetadata.description}
+        keywords={`exams, matric, NSC, national senior certificate`}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">

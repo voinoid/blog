@@ -1,13 +1,19 @@
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
-import { PageSEO } from '@/components/SEO'
+import { TutorSEO } from '@/components/SEO'
 
 export default function TutorLayout({ children, frontMatter }) {
-  const { name, avatar, occupation, email, twitter, linkedin, github, location } = frontMatter
+  const { name, avatar, occupation, email, twitter, linkedin, github, location, keywords } =
+    frontMatter
 
   return (
     <>
-      <PageSEO title={`Tutor - ${name}`} description={`Bio and contact information for ${name}`} />
+      <TutorSEO
+        title={`Tutor - ${name}`}
+        description={`Tutor bio and contact information for ${name}.`}
+        ogImages={avatar}
+        keywords={keywords}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="items-start xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center">

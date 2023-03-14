@@ -1,4 +1,4 @@
-import { TagSEO } from '@/components/SEO'
+import { ExamSEO } from '@/components/SEO'
 import ExamListLayout from '@/layouts/ExamListLayout'
 import { getAllFilesFrontMatter, getFileBySlug } from '@/lib/mdx'
 import { getAllTags } from '@/lib/tags'
@@ -48,7 +48,6 @@ export default function Tag({ items, tag }) {
   const title = tag[0].toUpperCase() + tag.split(' ').join('-').slice(1)
   return (
     <>
-      <TagSEO title={`${tag}`} description={`${tag} tags`} />
       <ExamListLayout items={items} title={title} />
     </>
   )

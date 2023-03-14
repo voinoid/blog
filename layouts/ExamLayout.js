@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import SectionContainer from '@/components/SectionContainer'
-import { BlogSEO } from '@/components/SEO'
+import { ExamSEO } from '@/components/SEO'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
@@ -11,32 +11,50 @@ import formatDate from '@/lib/utils/formatDate'
 const examDateTemplate = { year: 'numeric', month: 'long' }
 const FOLDER = 'exam'
 
-export default function ExamLayout({ frontMatter, tutorDetails, next, prev, children }) {
-  const { slug, fileName, date_written, title, paper, images, tags } = frontMatter
+export default function ExamLayout({ frontMatter, children }) {
+  const {
+    slug,
+    fileName,
+    authors,
+    title,
+    summary,
+    paper,
+    q_number,
+    date_written,
+    date_published,
+    date_modified,
+    images,
+    tags,
+    keywords,
+  } = frontMatter
 
   return (
     <SectionContainer>
-      <BlogSEO
+      <ExamSEO
         url={`${siteMetadata.siteUrl}/${FOLDER}/${slug}`}
-        tutorDetails={tutorDetails}
-        {...frontMatter}
+        authorDetails={authors}
+        title={title}
+        description={summary}
+        date={date_published}
+        lastmod={date_modified}
+        images={images}
+        keywords={keywords}
       />
       <ScrollTopAndComment />
       <article>
         <header>
-          <div className="space-y-1">
-            <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-3xl">
+          <div className="space-y-0">
+            <h3 className="text-1xl tracking-tight text-gray-900 dark:text-gray-100">
               <dt className="sr-only">Written on</dt>
               <time dateTime={date_written}>
                 {new Date(date_written).toLocaleDateString(siteMetadata.locale, examDateTemplate)}
               </time>
-              <br></br>
-              {paper}
+              {` - ${paper}`}
             </h3>
           </div>
         </header>
         <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-          <div className="prose max-w-none pt-5 dark:prose-dark">{children}</div>
+          <div className="prose max-w-none pt-1 dark:prose-dark">{children}</div>
         </div>
       </article>
     </SectionContainer>
