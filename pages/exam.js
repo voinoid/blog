@@ -54,7 +54,7 @@ export default function Exam({ items, tags }) {
             })}
           </div>
           <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
-            Latest Uploads
+            Latest Updates
           </h2>
         </div>
         <div>
