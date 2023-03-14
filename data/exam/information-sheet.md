@@ -9,7 +9,7 @@ date_modified: 2022.02.10
 tags: [information sheet]
 keywords: information sheet
 images: []
-layout: ExamLayout
+layout: InfoLayout
 draft: false
 blog: true
 ---
