@@ -4,8 +4,8 @@ title: Information Sheet
 summary: Given Exam Formulas
 paper: Information Sheet
 date_written: 2010.10.10
-date_published: 2022.02.10
-date_modified: 2022.02.10
+date_published: 2023.01.01
+date_modified: 2023.01.01
 tags: [information sheet]
 keywords: information sheet
 images: []

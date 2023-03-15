@@ -8,7 +8,7 @@ import Tag from '@/components/Tag'
 import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 
-const MAX_DISPLAY = 15
+const MAX_DISPLAY = 1000
 const FOLDER = 'exam'
 
 export async function getStaticProps() {
@@ -33,13 +33,22 @@ export default function Exam({ items, tags }) {
             Exam Questions
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            All exam questions come directly out of Grade 12 NSC Examination Papers. (
+            All exam questions come directly out of Grade 12 NSC Examination Papers. Original Papers
+            and Memoranda and be found at the following links: <br></br>(
             <a
-              href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/tabid/338/Default.aspx"
+              href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx"
               target="_blank"
               rel="noopener noreferrer"
             >
               https://www.education.gov.za
+            </a>
+            ) or (
+            <a
+              href="https://wcedonline.westerncape.gov.za/grade-12-question-papers"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://wcedonline.westerncape.gov.za
             </a>
             )
           </p>
@@ -90,7 +99,7 @@ export default function Exam({ items, tags }) {
       {items.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
-            href="/${FOLDER}"
+            href={`/${FOLDER}`}
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all exams"
           >
