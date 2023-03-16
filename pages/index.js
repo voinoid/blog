@@ -39,6 +39,12 @@ export default function Home() {
             for easy access and friendly viewing.
           </p>
         </div>
+        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <p>
+            If you find any errors in the resources or would like to make a suggestion, please make
+            sure to drop me an email. It will be appreciated!
+          </p>
+        </div>
       </div>
     </>
   )

@@ -72,7 +72,7 @@ blog: true
       $P(A\; or\; B)=P(A)+P(B)-P(A\; and\; B)$</td>
     </tr>
     <tr>
-      <td>Data Handling:<br></br>
+      <td>Statistics:<br></br>
       $\bar x =\frac{\displaystyle \Sigma x}{\displaystyle n}$<br></br>
       $\sigma ^2 = \frac{\displaystyle \sum_{i=1}^{n}(x_i-\bar x)^2}{\displaystyle n}$<br></br>
       $\hat y=a+bx$<br></br>
