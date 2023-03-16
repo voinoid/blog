@@ -75,10 +75,10 @@ export default function Exam({ item, authorDetails, prev, next }) {
             </div>
           )}
           {(next || prev) && (
-            <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
+            <div className="flex justify-between py-4">
               <div>
                 <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                  Previous Article
+                  Previous Question
                 </h2>
                 {prev && (
                   <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
@@ -88,7 +88,7 @@ export default function Exam({ item, authorDetails, prev, next }) {
               </div>
               <div>
                 <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                  Next Article
+                  Next Question
                 </h2>
                 {next && (
                   <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">

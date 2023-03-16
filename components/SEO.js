@@ -11,7 +11,7 @@ const CommonSEO = ({ title, description, keywords, ogType, ogImage }) => {
       <meta name="description" content={description} />
       <meta
         name="keywords"
-        content={`funatic, maths, mathematics, tutor, tutoring, funatic maths, south africa, cape town, education, mathematics resources, ${keywords}`}
+        content={`funatic, maths, mathematics, tutor, tutoring, teacher, teaching, funatic maths, south africa, cape town, education, mathematics resources, help, guidance, ${keywords}`}
       />
       <meta property="og:url" content={`${siteMetadata.siteUrl}${router.asPath}`} />
       <meta property="og:type" content={ogType} />

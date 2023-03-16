@@ -74,21 +74,19 @@ export default function Exam({ items, tags }) {
               return (
                 <li key={slug} className="py-0">
                   <article>
-                    <div className="xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                      <h2 className="text-2xl leading-8 tracking-tight">
-                        <Link
-                          href={`/${FOLDER}/${slug}`}
-                          className="text-gray-900 dark:text-gray-100"
-                        >
-                          {title} <small> - {summary}</small>
-                        </Link>
-                      </h2>
-                      {/*<div className="flex flex-wrap">
+                    <h2 className="text-2xl leading-8 tracking-tight">
+                      <Link
+                        href={`/${FOLDER}/${slug}`}
+                        className="text-gray-900 dark:text-gray-100"
+                      >
+                        {title} <small> - {summary}</small>
+                      </Link>
+                    </h2>
+                    {/*<div className="flex flex-wrap">
                       {tags.map((tag) => (
                         <Tag key={tag} text={tag} />
                       ))}
                       </div>*/}
-                    </div>
                   </article>
                 </li>
               )
